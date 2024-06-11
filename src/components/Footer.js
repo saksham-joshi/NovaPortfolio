@@ -13,13 +13,13 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
+        {/* <Col md="4" className="footer-copywright">
           <h3>Credit: <a href="https://github.com/soumyajit4419">SB</a> </h3>
-        </Col>
+        </Col> */}
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} Saksham Joshi</h3>
         </Col>
-        <Col md="4" className="footer-body">
+        {/* <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
@@ -62,7 +62,7 @@ function Footer() {
               </a>
             </li>
           </ul>
-        </Col>
+        </Col> */}
       </Row>
     </Container>
   );
