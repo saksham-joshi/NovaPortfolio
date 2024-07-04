@@ -23,7 +23,7 @@ function Projects() {
               imgPath={sron_project}
               isBlog={false}
               title="SRON"
-              description="An Open-sourced, blazingly fast, dynamically typed, single threaded, functional, lightweight and compiled + interpreted programming language. The compiler converts source code into bytecode, which is then saved to a '.srb' file. Subsequently, the SRON interpreter executes the bytecode file efficiently, offering high speed, reduced memory usage, and lower power consumption."
+              description="A blazingly fast, statically + dynamically typed, single threaded, functional, lightweight and compiled + interpreted programming language. The compiler converts source code into bytecode, which is then saved to a '.srb' file. Subsequently, the SRON interpreter executes the bytecode file efficiently, offering high speed, reduced memory usage, and lower power consumption."
               ghLink="https://github.com/saksham-joshi/SRON"
               demoLink="https://sron.gitbook.io/docs/sample-codes"
             />
