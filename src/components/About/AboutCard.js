@@ -7,10 +7,17 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Saksham Joshi </span>
-            from <span className="purple"> Uttarakhand, India.</span>
+            Hi ✋🏻, I am <span className="purple">Saksham Joshi </span>
+            from  Uttarakhand, India.
             <br />
-            I am currently pursuing Bachelor's of Computer Application from Graphic Era Hill University, Bhimtal
+            <br />
+            I hold a Bachelor’s degree🎓 in Computer Application from Graphic Era Hill University, Bhimtal.
+            <br />
+            <br />
+            As a passionate <span className="purple">Compiler Engineer</span>💻, I believe in diving deep into every concept to unlock true mastery.
+            <br/>
+            <br />
+            Currently, I’m expanding my knowledge by learning LLVM, IR, and MLIR. 🚀
             <br />
             <br />
             Apart from programming, some other activities that I love to do are:

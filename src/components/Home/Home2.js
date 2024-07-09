@@ -20,16 +20,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am a <b className="purple"> Programming Geek </b> having an ambition of being world's best programmer.
+            🔰I am a <b className="purple"> Programming Geek </b> having an ambition of being world's best programmer.
               <br />
-              <br />Have mastery in
+              <br />I have mastery in
               <i>
-                <b className="purple"> C++ and Python </b>
+                <b className="purple"> SRON, C++ and Python </b>
               </i>
-              programming language.
+              programming languages⭐
               <br />
               <br />
-              Specialize in developing innovative&nbsp;
+              ⚡specializes in developing innovative&nbsp;
               <i>
                 <b className="purple">compilers and interpreters&nbsp;</b> 
                 </i>
@@ -41,18 +41,15 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+               whenever possible, I also apply my passion for developing products
               with <b className="purple">Java, </b>
               <i>
                 <b className="purple">
                   {" "}
-                  Python, HTML, CSS and JavaScript. 
+                  Python, HTML, CSS and JavaScript.
                 </b>
               </i>
-              {/* &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i> */}
+              🔥
             </p>
           </Col>
           <Col md={4} className="myAvtar">
