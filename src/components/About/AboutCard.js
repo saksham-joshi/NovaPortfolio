@@ -14,7 +14,7 @@ function AboutCard() {
             I hold a Bachelor’s degree🎓 in Computer Application from Graphic Era Hill University, Bhimtal.
             <br />
             <br />
-            As a passionate <span className="purple">Compiler Engineer</span>💻, I believe in diving deep into every concept to unlock true mastery.
+            As a passionate self-taught <span className="purple">Compiler Engineer</span>💻, I believe in diving deep into every concept to unlock true mastery.
             <br/>
             <br />
             Currently, I’m expanding my knowledge by learning LLVM, IR, and MLIR. 🚀
