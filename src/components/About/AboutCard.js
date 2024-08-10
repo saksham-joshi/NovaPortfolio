@@ -30,7 +30,7 @@ function AboutCard() {
               🧘🏻‍♂️ Yoga
             </li>
             <li className="about-activity">
-              💻 Content Writing
+              💻 Blog Writing
             </li>
             
           </ul>
