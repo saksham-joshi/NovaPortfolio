@@ -12,7 +12,10 @@ import {
   SiPowerbi,
   SiMysql,
   SiGit,
-  SiLinux
+  SiLinux,
+  SiFlask,
+  SiJson,
+  SiStackoverflow
 } from "react-icons/si";
 
 function Toolstack() {
@@ -28,7 +31,7 @@ function Toolstack() {
         <SiVisualstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMicrosoftexcel />
+        <SiStackoverflow />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
@@ -43,7 +46,16 @@ function Toolstack() {
         <SiNetlify />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiFlask />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJson />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiAndroidstudio />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftexcel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMongodb />
@@ -54,6 +66,7 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPowerbi />
       </Col>
+
     </Row>
   );
 }

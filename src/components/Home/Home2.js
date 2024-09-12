@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import myImg from "../../Assets/avatar.svg";
-import myImg from "../../Assets/avatar_logo.png";
+import guyWithLaptop from "../../Assets/guy-with-laptop.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -20,41 +19,37 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            🔰I am a <b className="purple"> Programming Geek </b> having an ambition of becoming world's best programmer.
+            🔰 I am a <b className="purple"> Programming Geek </b> having an ambition to become "<b className="superblue">the world's #`1` programmer</b>".
               <br />
-              <br />I have mastery in
-              {/* <i> */}
+              <br />With mastery in
+            
                 <b className="purple"> SRON, C++ and Python </b>
-              {/* </i> */}
-              programming languages⭐
-              <br />
-              <br />
-              ⚡specializes in developing innovative&nbsp;
-              {/* <i> */}
-                <b className="purple">compilers and interpreters&nbsp;</b> 
-                {/* </i> */}
+              
+              programming languages, I specialize in developing cutting-edge 
+              
+                <b className="purple">&nbsp;compilers and interpreters&nbsp;</b> 
+                
                 and also in areas related to{" "}
-                {/* <i> */}
+                
                 <b className="purple">
                   software development.
                 </b>
-              {/* </i> */}
+              
               <br />
               <br />
-               whenever possible, I also apply my passion for developing products
-              with <b className="purple">Java, </b>
-              {/* <i> */}
+              ⚡ In addition, I have pretty good knowledge for creating 
+              impactful products using <b className="purple">Java, C# .NET, </b>
+              
                 <b className="purple">
                   {" "}
-                  Python, HTML, CSS and JavaScript.
+                  Dart, PHP, HTML, CSS and JavaScript.
                 </b>
-              {/* </i> */}
-              🔥
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={guyWithLaptop} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
