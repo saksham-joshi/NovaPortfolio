@@ -20,35 +20,35 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            🔰I am a <b className="purple"> Programming Geek </b> having an ambition of being world's best programmer.
+            🔰I am a <b className="purple"> Programming Geek </b> having an ambition of becoming world's best programmer.
               <br />
               <br />I have mastery in
-              <i>
+              {/* <i> */}
                 <b className="purple"> SRON, C++ and Python </b>
-              </i>
+              {/* </i> */}
               programming languages⭐
               <br />
               <br />
               ⚡specializes in developing innovative&nbsp;
-              <i>
+              {/* <i> */}
                 <b className="purple">compilers and interpreters&nbsp;</b> 
-                </i>
+                {/* </i> */}
                 and also in areas related to{" "}
-                <i>
+                {/* <i> */}
                 <b className="purple">
                   software development.
                 </b>
-              </i>
+              {/* </i> */}
               <br />
               <br />
                whenever possible, I also apply my passion for developing products
               with <b className="purple">Java, </b>
-              <i>
+              {/* <i> */}
                 <b className="purple">
                   {" "}
                   Python, HTML, CSS and JavaScript.
                 </b>
-              </i>
+              {/* </i> */}
               🔥
             </p>
           </Col>
