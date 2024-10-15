@@ -4,8 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-// import profileLogo from "../../Assets/about.png";
-import profileLogo from "../../Assets/avatar_logo.png";
+import profileLogo from "../../Assets/about_page_pic.png";
 import Toolstack from "./Toolstack";
 
 function About() {

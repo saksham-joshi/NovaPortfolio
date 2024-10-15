@@ -9,9 +9,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi ✋🏻, I am <span className="purple">Saksham Joshi </span>
             from  Uttarakhand, India. I am {(new Date().getFullYear()-2003)} years old.
-            <br />
+            {/* <br />
             <br/>
             Currently pursuing  Master's in Computer Application from G.B. Pant University of Agriculture and Technology, Pantnagar.
+            <br/> */}
             <br/>
             <br/>
             I hold a Bachelor’s degree👨🏻‍🎓 in Computer Application from Graphic Era Hill University, Bhimtal.
