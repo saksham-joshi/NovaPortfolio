@@ -5,13 +5,14 @@ import {
   DiJavascript1,
   DiJava,
   DiHtml5,
-  DiCss3,
+  DiCss3
 } from "react-icons/di";
 import {
   SiC,
   SiDotnet,
   SiLlvm,
   SiPhp,
+  SiGnu,
   SiDart,
   SiPython
 } from "react-icons/si";
@@ -30,6 +31,10 @@ function Techstack() {
 
       <Col xs={4} md={2} className="tech-icons">
         <SiLlvm/>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGnu/>
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">

@@ -13,6 +13,7 @@ import {
   SiMysql,
   SiGit,
   SiLinux,
+  SiAndroid,
   SiFlask,
   SiJson,
   SiStackoverflow
@@ -27,6 +28,11 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiLinux />
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAndroid />
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudio />
       </Col>
