@@ -11,7 +11,7 @@ function AboutCard() {
             from  Uttarakhand, India. I am {(new Date().getFullYear()-2003)} years old.
             <br />
             <br/>
-            Currently pursuing  Master's in Computer Applications from G.B. Pant University of Agriculture and Technology, Pantnagar, Uttarakhand.
+            Currently pursuing  Masters in Computer Applications from G.B. Pant University of Agriculture and Technology, Pantnagar, Uttarakhand.
             <br/>
             <br/>
             I hold a Bachelor’s degree👨🏻‍🎓 in Computer Applications from Graphic Era Hill University, Bhimtal.
@@ -20,7 +20,7 @@ function AboutCard() {
             As a passionate self-taught <span className="purple">Compiler Engineer</span>💻, I believe in diving deep into every concept to unlock true mastery.
             <br/>
             <br />
-            Currently, I’m expanding my knowledge by learning LLVM, IR, and MLIR. 🚀
+            Currently, I’m expanding my knowledge by learning Advance C, Clang, and Linux. 🚀
             <br />
             <br />
             Apart from programming, some other activities that I love to do are:
