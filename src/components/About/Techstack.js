@@ -5,7 +5,7 @@ import {
   DiJavascript1,
   DiJava,
   DiHtml5,
-  DiCss3
+  DiCss3,
 } from "react-icons/di";
 import {
   SiC,

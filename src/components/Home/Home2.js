@@ -25,9 +25,9 @@ function Home2() {
             
                 <b className="purple"> SRON, C++ and Python </b>
               
-              programming languages, I specialize in developing cutting-edge 
+              programming languages, I specialize in developing cutting-edge and highly optimized
               
-                <b className="purple">&nbsp;compilers and interpreters&nbsp;</b> 
+                <b className="purple">&nbsp;softwares like compilers, apps and APIs etc. &nbsp;</b> 
                 
                 and also in areas related to{" "}
                 
