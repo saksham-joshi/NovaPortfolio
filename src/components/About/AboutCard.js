@@ -11,7 +11,7 @@ function AboutCard() {
             from  Uttarakhand, India. I am {(new Date().getFullYear()-2003)} years old.
             <br />
             <br/>
-            Currently pursuing  Masters in Computer Applications from G.B. Pant University of Agriculture and Technology, Pantnagar, Uttarakhand.
+            Currently pursuing  Master's in Computer Applications from Graphic Era Deemed to be University, Dehradun, Uttarakhand.
             <br/>
             <br/>
             I hold a Bachelor’s degree👨🏻‍🎓 in Computer Applications from Graphic Era Hill University, Bhimtal.
