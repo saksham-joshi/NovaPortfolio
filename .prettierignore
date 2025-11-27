@@ -1,0 +1,7 @@
+.github
+.git
+images
+node_modules
+build
+public
+*.json
