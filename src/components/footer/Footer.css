@@ -1,10 +1,17 @@
 .footer-text {
   text-align: center;
-  /* color: #868e96; */
   font-weight: bold;
   font-family: "Google Sans Regular";
 }
 
 .footer-div {
   margin-top: 2rem;
+}
+
+.git-repo-url{
+  text-decoration: none;
+}
+
+.git-repo-url:hover{
+  text-decoration:overline;
 }
