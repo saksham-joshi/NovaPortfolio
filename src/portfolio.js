@@ -384,6 +384,13 @@ const degrees = {
 const educationGallery = {
   gallery : [
     {
+      title : "Participated in Quiz",
+      subtitle : "Participated in C++ Quiz which I won further",
+      img_path : "bca_seminar.jpg",
+      alt_name : "C++ QUIZ",
+      color_code: "#FFBB0099"
+    },
+    {
       title : "Receiving Certificate",
       subtitle : "Got #1 in C++ Competition",
       img_path : "cpp_competition.jpg",
@@ -396,6 +403,20 @@ const educationGallery = {
       img_path : "cpp_quiz.png",
       alt_name : "Receiving certificate from (Prof) Dr. MC Lohani",
       color_code: "#2A73CC"
+    },
+    {
+      title : "Seminars",
+      subtitle : "Actively participated in Seminars",
+      img_path: "seminar_2.jpg",
+      alt_name : "Seminars",
+      color_code : "#356effff"
+    },
+    {
+      title : "Bachelor's Classmates",
+      subtitle : "A memorable group photo with my batchmates",
+      img_path: "farewell_to_seniors.jpg",
+      alt_name: "Organized farwell party for Seniors",
+      color_code : "#06b200ff"
     },
     {
       title : "Bachelor's Degree",
@@ -412,11 +433,11 @@ const educationGallery = {
       color_code: "#1F70C199"
     },
     {
-      title : "Interactive seminar",
-      subtitle : "Attending seminars",
-      img_path : "bca_seminar.jpg",
-      alt_name : "Seminar",
-      color_code: "#FFBB0099"
+      title : "Launched SRON v2.1",
+      subtitle : "Celebrating launch of version 2.1 of SRON",
+      img_path : "sron_v2_1.jpg",
+      alt_name : "SRON v2.1's Cake Cutting",
+      color_code: "#c39a42ff"
     },
     {
       title : "SIH 2025",
