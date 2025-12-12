@@ -21,6 +21,7 @@ const greeting = {
     "/resume",
   portfolio_repository: "https://github.com/saksham-joshi/NovaPortfolio",
   githubProfile: "https://github.com/saksham-joshi",
+  githubProjectLink : "https://github.com/saksham-joshi?tab=repositories"
 };
 
 const socialMediaLinks = [
