@@ -2,7 +2,7 @@
 const seo = {
   title: "Saksham Joshi Portfolio",
   description:
-    "Saksham Joshi — self-taught compiler engineer, creator of the SRON programming language. Expert in C++, systems programming, interpreters, compilers, and DBMS internals.",
+    "Saksham Joshi — Creator of the SRON programming language. Expert in C++, systems programming, interpreters, compilers, and DBMS internals.",
   og: {
     title: "Saksham Joshi Portfolio",
     type: "website",
