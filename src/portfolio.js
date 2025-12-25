@@ -413,13 +413,6 @@ const educationGallery = {
       color_code : "#356effff"
     },
     {
-      title : "Bachelor's Classmates",
-      subtitle : "A memorable group photo with my batchmates",
-      img_path: "farewell_to_seniors.jpg",
-      alt_name: "Organized farwell party for Seniors",
-      color_code : "#06b200ff"
-    },
-    {
       title : "Bachelor's Degree",
       subtitle : "BCA Degree Received",
       img_path : "bca_degree.jpg",
@@ -439,6 +432,13 @@ const educationGallery = {
       img_path : "sron_v2_1.jpg",
       alt_name : "SRON v2.1's Cake Cutting",
       color_code: "#c39a42ff"
+    },
+    {
+      title : "Blood donation",
+      subtitle : "Donating blood for welfare",
+      img_path: "blood_donate.jpg",
+      alt_name: "Donating blood for welfare",
+      color_code : "#cc2929ff"
     },
     {
       title : "SIH 2025",
