@@ -453,28 +453,12 @@ const educationGallery = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work, Internship and Open Source",
   description:
     "I have worked with startups and NGOs, delivering strong and reliable contributions",
   header_image_path: "experience.svg",
   sections: [
-    // {
-    //   title: "Work",
-    //   work: true,
-    //   experiences: [
-    //     {
-    //       title: "Software Enginner",
-    //       company: "Microsoft",
-    //       company_url: "https://www.microsoft.com/",
-    //       logo_path: "microsoft.png",
-    //       duration: "June 2023 - Present",
-    //       location: "Bangalore, India",
-    //       description:
-    //         "Working on C# .NET",
-    //       color: "#000000",
-    //     }
-    //   ],
-    // },
+    
     {
       title: "Internships",
       experiences: [
@@ -501,6 +485,22 @@ const experience = {
         },
       ],
     },
+    {
+      title: "Open Source",
+      experiences: [
+        {
+          title: "Contributor of Code and Design",
+          company: "MasterPortfolio",
+          company_url: "https://github.com/ashutosh1919/masterPortfolio",
+          logo_path: "masterportfolio.png",
+          duration: "Dec 2025 - Present",
+          location: "Remote",
+          description:
+            "Improved UI responsiveness across multiple React components and built an in-app PDF resume viewer with React state management, eliminating the need for external downloads.",
+          color: "#000000",
+        }
+      ],
+    }
   ],
 };
 
