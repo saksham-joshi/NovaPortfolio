@@ -10,7 +10,7 @@
 }
 .resume-page
 {
-  display: flex;
+  display: block;
 }
 
 .resume-page > *{
@@ -34,4 +34,15 @@
   {
     max-width: 80vw;
   }
+}
+
+.document-resume{
+  display: block;
+}
+
+.single-page{
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

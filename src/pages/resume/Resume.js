@@ -12,9 +12,51 @@ import Button from "../../components/button/Button";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 export default class ResumePage extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      pageWidth: null,
+      pageCount: null,
+      error: null,
+    };
+  }
+  handleResize = () => {
+    const screen_width = window.innerWidth;
+    let new_width = screen_width;
+
+    if (screen_width > 786) {
+      new_width = screen_width * 0.7;
+    } else {
+      new_width = screen_width * 0.85;
+    }
+    this.setState({ pageWidth: new_width });
+  };
+
+  componentDidMount() {
+    this.handleResize();
+    window.addEventListener("resize", this.handleResize);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.handleResize);
+  }
+
+  onDocumentLoadSuccess = ({ numPages }) => {
+    this.setState({ pageCount: numPages });
+  };
+
+  onDocumentLoadError = (error) => {
+    console.error("Error loading the PDF: " + error);
+    this.setState({
+      error: "Unable to load Resume!",
+      pageWidth: null,
+      pageCount: null,
+    });
+  };
+
   render() {
     const theme = this.props.theme;
-    const width = this.props.screenWidth;
+    const { pageCount, pageWidth, error } = this.state;
 
     return (
       <div className="resume-main">
@@ -22,16 +64,39 @@ export default class ResumePage extends Component {
         <div className="resume-view">
           <Fade bottom duration={2000} distance="40px">
             <Button
-                text="📃 Download Resume"
-                newTab={true}
-                href={myResumePdf}
-                theme={theme}
-                className="download-btn"
-              />
+              text="📃 Download Resume"
+              newTab={true}
+              href={myResumePdf}
+              theme={theme}
+              className="download-btn"
+            />
             <div className="resume-page">
-              <Document file={myResumePdf}>
-                <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.58} />
-              </Document>
+              {error ? (
+                <div className="error-messge">{error}</div>
+              ) : (
+                <Document
+                  file={myResumePdf}
+                  onLoadSuccess={this.onDocumentLoadSuccess}
+                  onLoadError={this.onDocumentLoadError}
+                  className="document-resume"
+                >
+                  
+                    {pageCount &&
+                      pageWidth &&
+                      Array.from(
+                        { length: pageCount },
+                        (_, i) => i + 1
+                      ).map((pageNum) => (
+                        <Page
+                          key={pageNum}
+                          width={pageWidth}
+                          pageNumber={pageNum}
+                          className="single-page"
+                        />
+                      ))}
+                  
+                </Document>
+              )}
             </div>
           </Fade>
         </div>
