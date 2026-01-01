@@ -27,7 +27,7 @@ export default class ResumePage extends Component {
     if (screen_width > 786) {
       new_width = screen_width * 0.7;
     } else {
-      new_width = screen_width * 0.85;
+      new_width = screen_width * 0.9;
     }
     this.setState({ pageWidth: new_width });
   };
