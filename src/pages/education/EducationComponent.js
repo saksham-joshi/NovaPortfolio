@@ -3,11 +3,11 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
-import EducationImg from "./EducationImg";
 import { educationGallery } from "../../portfolio";
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 import EduGallery from "../../containers/eduGallery/Gallery";
+import MortarBoard from "../../illustrations/MortarBoard";
 
 class Education extends Component {
   render() {
@@ -19,7 +19,7 @@ class Education extends Component {
           <Fade bottom duration={2000} distance="40px">
             <div className="heading-div">
               <div className="heading-img-div">
-                <EducationImg theme={theme} />
+                <MortarBoard theme={theme} />
               </div>
               <div className="heading-text-div">
                 <h1 className="heading-text" style={{ color: theme.text }}>

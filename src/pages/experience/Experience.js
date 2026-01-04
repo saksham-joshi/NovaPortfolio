@@ -6,8 +6,7 @@ import ExperienceAccordion from "../../containers/experienceAccordion/Experience
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
-import ExperienceImg2 from "./ExperienceImg2";
-
+import WorkingOnLaptop from "../../illustrations/WorkingOnLaptop.js";
 
 class Experience extends Component {
   render() {
@@ -20,7 +19,7 @@ class Experience extends Component {
             <div className="experience-heading-div">
 
               <div className="experience-heading-img-div">
-                <ExperienceImg2 theme={theme} />
+                <WorkingOnLaptop theme={theme} />
               </div>
 
               <div className="experience-heading-text-div">
