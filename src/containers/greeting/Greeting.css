@@ -56,8 +56,6 @@
 }
 
 .greeting-image-div{
-  padding-left:auto;
-  padding-right:0px;
   display: flex;
   justify-content: center;
   align-items: center;
