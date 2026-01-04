@@ -80,21 +80,19 @@ export default class ResumePage extends Component {
                   onLoadError={this.onDocumentLoadError}
                   className="document-resume"
                 >
-                  
-                    {pageCount &&
-                      pageWidth &&
-                      Array.from(
-                        { length: pageCount },
-                        (_, i) => i + 1
-                      ).map((pageNum) => (
-                        <Page
-                          key={pageNum}
-                          width={pageWidth}
-                          pageNumber={pageNum}
-                          className="single-page"
-                        />
-                      ))}
-                  
+                  {pageCount &&
+                    pageWidth &&
+                    Array.from(
+                      { length: pageCount },
+                      (_, i) => i + 1
+                    ).map((pageNum) => (
+                      <Page
+                        key={pageNum}
+                        width={pageWidth}
+                        pageNumber={pageNum}
+                        className="single-page"
+                      />
+                    ))}
                 </Document>
               )}
             </div>

@@ -26,7 +26,7 @@ export default function Greeting(props) {
               >
                 {greeting.subTitle}
               </p>
-              {/* <SocialMedia theme={theme} /> */}
+
               <div className="portfolio-repo-btn-div">
                 <Button
                   text="📃 View My Resume"
@@ -39,11 +39,10 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            {/* <LandingImg theme={theme} /> */}
             <img
-                  src={require(`../../assets/images/self/bw-rounded-corner.png`)}
-                  alt=""
-                />
+              src={require(`../../assets/images/self/bw-rounded-corner.png`)}
+              alt=""
+            />
           </div>
         </div>
       </div>
