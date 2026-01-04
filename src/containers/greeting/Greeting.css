@@ -55,6 +55,14 @@
   height: auto;
 }
 
+.greeting-image-div{
+  padding-left:auto;
+  padding-right:0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
