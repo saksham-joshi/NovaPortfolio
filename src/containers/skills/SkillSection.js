@@ -4,10 +4,10 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
 
-import FullStackImg from "./FullStackImg";
-import LowLevelProgImg from "./LowLevelProgImg";
-import PythonProgImg from "./PythonProgImg";
-import ExtraTechImg from "./ExtraTechImg";
+import FullStackImg from "../../illustrations/FullStackImg";
+import LowLevelProgImg from "../../illustrations/LowLevelProgImg";
+import PythonProgImg from "../../illustrations/PythonProgImg";
+import ExtraTechImg from "../../illustrations/ExtraTechImg";
 
 function GetSkillSvg(props) {
   
