@@ -4,12 +4,12 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import BlogsImg from "./BlogsImg";
-import AddressImg from "./AddressImg";
+import BlogsImg from "../../illustrations/BlogsImg.js";
+import AddressImg from "../../illustrations/AddressImg.js";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
-import MirrorLookingImg from "./MirrorLookingImg.js";
+import LookingInMirror from "../../illustrations/LookingInMirror.js"
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -25,14 +25,11 @@ class Contact extends Component {
         <div className="basic-contact">
           <Fade bottom duration={1000} distance="40px">
             <div className="contact-heading-div">
-              <div className="contact-heading-img-div">
-                {/* <img
-                  src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
-                  alt=""
-                /> */}
-                <MirrorLookingImg theme={theme}/>
 
+              <div className="contact-heading-img-div">
+                <LookingInMirror theme={theme}/>
               </div>
+
               <div className="contact-heading-text-div">
                 <h1
                   className="contact-heading-text"
