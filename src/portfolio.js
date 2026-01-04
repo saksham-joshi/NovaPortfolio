@@ -519,7 +519,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "self/bw-rounded-corner.png",
     description:
-      "I am active on LinkedIn but inactive on X and Instagram.",
+      "I am active on LinkedIn and GitHub but inactive on X and Instagram.",
   },
   blogSection: {
     title: "Newsletter",
