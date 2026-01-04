@@ -123,9 +123,9 @@
   top: 0;
 }
 
-/* 54em = 866px */
+/* 55em = 872px */
 
-@media (min-width: 54em) {
+@media (min-width: 55em) {
   .header li {
     float: left;
   }
