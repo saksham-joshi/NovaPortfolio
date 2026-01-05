@@ -18,6 +18,9 @@ class ExperienceCard extends Component {
             <img
               className="experience-card-logo"
               src={require(`../../assets/images/${experience["logo_path"]}`)}
+              onError={(err) => {
+                  console.error("Cannot load the image: "+err)
+                }}
               alt=""
             />
           </div>
