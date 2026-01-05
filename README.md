@@ -6,6 +6,9 @@
 
 [![Stars](https://img.shields.io/github/stars/saksham-joshi/NovaPortfolio?style=social)](https://github.com/saksham-joshi/NovaPortfolio)
 [![Live Demo](https://img.shields.io/badge/demo-online-success)](https://sakshamjoshi.vercel.app/)
+<div align="center">
+   <img src="https://skillicons.dev/icons?i=css,react,js,vercel" height="15%"/>
+</div>
 
 [View Demo](https://sakshamjoshi.vercel.app/) · [Report Bug](https://github.com/saksham-joshi/NovaPortfolio/issues) · [Request Feature](https://github.com/saksham-joshi/NovaPortfolio/issues)
 
