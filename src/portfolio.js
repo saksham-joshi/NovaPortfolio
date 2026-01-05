@@ -351,7 +351,7 @@ const currentCourses = {
     {
       title: "Graphic Era University, Dehradun",
       subtitle: "Master's in Computer Application",
-      logo_path: "geu_logo.png",
+      logo_path: "geu.png",
       alt_name: "Graphic Era University",
       duration: "2025 - 2027",
       descriptions: [
@@ -369,7 +369,7 @@ const degrees = {
     {
       title: "Graphic Era Hill University, Bhimtal",
       subtitle: "Bachelor's in Computer Application",
-      logo_path: "gehu_bgremoved.png",
+      logo_path: "gehu.png",
       alt_name: "Graphic Era Hill University",
       duration: "2021 - 2024",
       descriptions: [
@@ -492,7 +492,7 @@ const experience = {
           title: "Contributor of Code and Design",
           company: "MasterPortfolio",
           company_url: "https://github.com/ashutosh1919/masterPortfolio",
-          logo_path: "masterportfolio.png",
+          logo_path: "experience/masterportfolio.png",
           duration: "Dec 2025 - Present",
           location: "Remote",
           description:
