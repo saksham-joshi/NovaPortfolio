@@ -28,13 +28,6 @@ export default function Contact() {
             <SocialMedia />
           </div>
         </div>
-        {/* <div className="contact-image-div">
-          <img
-            alt="working"
-            src={require("../../assets/images/contactMail.png")}
-          ></img>
-          
-        </div> */}
       </div>
     </div>
   );
