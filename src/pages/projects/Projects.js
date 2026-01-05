@@ -43,8 +43,8 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
-            return <GithubRepoCard repo={repo} theme={theme} />;
+          {ProjectsData.data.map((repo, index) => {
+            return <GithubRepoCard repo={repo} theme={theme} key={index}/>;
           })}
         </div>
         <Button
