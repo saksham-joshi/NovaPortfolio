@@ -39,7 +39,7 @@ class ExperienceAccordion extends Component {
               >
 {section["experiences"].map((experience,index) => {
                   return (
-                    <ExperienceCard index={index} totalCards={section["experiences"].length} experience={experience} theme={theme} />
+                    <ExperienceCard index={index} key={index} totalCards={section["experiences"].length} experience={experience} theme={theme} />
                   );
                 })}
               </Panel>
