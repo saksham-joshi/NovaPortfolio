@@ -8,6 +8,10 @@ class ExperienceCard extends Component {
     const index = this.props.index;
     const totalCards = this.props.totalCards;
     const theme = this.props.theme;
+    
+    let logo = require(`../../assets/images/${experience["logo_path"]}`);
+    logo = logo.default || logo;
+
     return (
       <div
         className="experience-list-item"
@@ -17,7 +21,7 @@ class ExperienceCard extends Component {
           <div className="experience-card-logo-div">
             <img
               className="experience-card-logo"
-              src={require(`../../assets/images/${experience["logo_path"]}`)}
+              src={logo}
               onError={(err) => {
                   console.error("Cannot load the image: "+err)
                 }}

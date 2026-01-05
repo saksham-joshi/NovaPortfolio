@@ -6,6 +6,8 @@ class GalleryCard extends Component {
   render() {
     const photoObject = this.props.gallery;
     const theme = this.props.theme;
+    let img = require(`../../assets/images/eduGallery/${photoObject.img_path}`);
+    img = img.default || img;
     return (
       <Fade bottom duration={2000} distance="20px">
         <div className="gallery-card">
@@ -17,7 +19,7 @@ class GalleryCard extends Component {
             >
               <img
                 className="gallery-card-img"
-                src={require(`../../assets/images/eduGallery/${photoObject.img_path}`)}
+                src={img}
                 alt={photoObject.alt_name}
                 onError={(err) => {
                   console.error("Cannot load the image: "+err)
