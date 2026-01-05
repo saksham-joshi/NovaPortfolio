@@ -17,8 +17,8 @@ class EduGallery extends Component {
           </Fade>
         </div>
         <div className="gallery-body-div">
-          {educationGallery.gallery.map((photoObject) => {
-            return <GalleryCard gallery={photoObject} theme={theme} />;
+          {educationGallery.gallery.map((photoObject, index) => {
+            return <GalleryCard gallery={photoObject} theme={theme} key={index} />;
           })}
         </div>
       </div>

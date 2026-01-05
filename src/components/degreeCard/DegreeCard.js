@@ -6,8 +6,9 @@ class DegreeCard extends Component {
   render() {
     const degree = this.props.degree;
     const theme = this.props.theme;
+    const key = this.props.key;
     return (
-      <div className="degree-card">
+      <div key={key} className="degree-card">
         {degree.logo_path && (
           <Flip left duration={2000}>
             <div className="card-img">
@@ -47,9 +48,9 @@ class DegreeCard extends Component {
               </div>
             </div>
             <div className="body-content">
-              {degree.descriptions.map((sentence) => {
+              {degree.descriptions.map((sentence, index) => {
                 return (
-                  <p className="content-list" style={{ color: theme.text }}>
+                  <p key={index} className="content-list" style={{ color: theme.text }}>
                     {sentence}
                   </p>
                 );

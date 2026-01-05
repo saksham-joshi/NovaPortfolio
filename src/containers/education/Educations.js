@@ -18,8 +18,8 @@ class Educations extends Component {
           </Fade>
         </div>
         <div className="educations-body-div">
-          {currentCourses.course.map((course) => {
-            return <DegreeCard degree={course} theme={theme} />;
+          {currentCourses.course.map((course, index) => {
+            return <DegreeCard degree={course} theme={theme} key={index} />;
           })}
         </div>
       </div>
@@ -33,8 +33,8 @@ class Educations extends Component {
           </Fade>
         </div>
         <div className="educations-body-div">
-          {degrees.degrees.map((degree) => {
-            return <DegreeCard degree={degree} theme={theme} />;
+          {degrees.degrees.map((degree, index) => {
+            return <DegreeCard degree={degree} theme={theme} key={index} />;
           })}
         </div>
       </div>

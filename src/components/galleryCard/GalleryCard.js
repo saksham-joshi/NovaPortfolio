@@ -6,9 +6,10 @@ class GalleryCard extends Component {
   render() {
     const photoObject = this.props.gallery;
     const theme = this.props.theme;
+    const key = this.props.key;
     return (
       <Fade bottom duration={2000} distance="20px">
-        <div className="gallery-card">
+        <div key={key} className="gallery-card">
           <div className="gallery-card-content">
             <div className="gallery-card-content-overlay"></div>
             <div
