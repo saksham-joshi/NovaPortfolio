@@ -11,7 +11,7 @@ export default class ExtraTechImg extends Component {
         x="0px"
         y="0px"
         viewBox="0 0 2000 2000"
-        style={{"enable-background":"new 0 0 2000 2000"}}
+        style={{"enableBackground":"new 0 0 2000 2000"}}
         space="preserve"
       >
         
