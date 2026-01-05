@@ -3,7 +3,7 @@ import "./Greeting.css";
 import Button from "../../components/button/Button";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
-
+import profileImage from "../../assets/images/self/bw-rounded-corner.png"
 export default function Greeting(props) {
   const theme = props.theme;
   return (
@@ -40,8 +40,8 @@ export default function Greeting(props) {
           </div>
           <div className="greeting-image-div">
             <img
-              src={require(`../../assets/images/self/bw-rounded-corner.png`)}
-              alt=""
+              src={profileImage}
+              alt="profile"
             />
           </div>
         </div>
