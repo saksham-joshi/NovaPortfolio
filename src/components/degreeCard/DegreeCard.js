@@ -6,9 +6,8 @@ class DegreeCard extends Component {
   render() {
     const degree = this.props.degree;
     const theme = this.props.theme;
-    const key = this.props.key;
     return (
-      <div key={key} className="degree-card">
+      <div className="degree-card">
         {degree.logo_path && (
           <Flip left duration={2000}>
             <div className="card-img">
@@ -20,6 +19,9 @@ class DegreeCard extends Component {
                 }}
                 src={require(`../../assets/images/${degree.logo_path}`)}
                 alt={degree.alt_name}
+                onError={(err) => {
+                  console.error("Cannot load the image: "+err)
+                }}
               />
             </div>
           </Flip>
