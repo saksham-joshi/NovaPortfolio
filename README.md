@@ -49,14 +49,16 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
 
    ```bash
    npm install
+   or
+   pnpm install
    ```
-
-   > **⚠️ Note:** Use `npm` for installation to avoid compatibility issues with other package managers like pnpm or bun.
 
 3. **Start the development server**
 
    ```bash
    npm start
+   or
+   pnpm start
    ```
 
 4. **Customize your portfolio**
