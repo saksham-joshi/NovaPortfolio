@@ -238,6 +238,39 @@ const skills = {
             color: "#37b6f1",
           },
         },
+        {
+          skillName: "Bun",
+          fontAwesomeClassname: "simple-icons:bun",
+          style: {
+            backgroundColor: "transparent",
+            color: "#ff34a4ff",
+          },
+        },
+        {
+          skillName: "Node.js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
+          style: {
+            backgroundColor: "transparent",
+            color: "#5FA04E",
+          },
+        },
+        {
+          skillName: "Npm",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            backgroundColor: "transparent",
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Pnpm",
+          fontAwesomeClassname: "simple-icons:pnpm",
+          style: {
+            backgroundColor: "transparent",
+            color: "#F69220",
+          },
+        },
+        
       ],
     },
     {
