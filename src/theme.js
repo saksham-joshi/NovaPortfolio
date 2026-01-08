@@ -124,6 +124,7 @@ export const tealTheme = {
   headerColor: "#07beb877",
   splashBg: "#084c61",
   shadowColor : "#35777a",
+  lightBgColor : "#c5e8e2"
 };
 
 export const orangeTheme = {
