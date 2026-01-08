@@ -9,7 +9,7 @@ import AddressImg from "../../illustrations/AddressImg.js";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
-import LookingInMirror from "../../illustrations/LookingInMirror.js"
+import TalkingOnPhone from "../../illustrations/TalkingOnPhone.js"
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
@@ -27,7 +27,7 @@ class Contact extends Component {
             <div className="contact-heading-div">
 
               <div className="contact-heading-img-div">
-                <LookingInMirror theme={theme}/>
+                <TalkingOnPhone theme={theme}/>
               </div>
 
               <div className="contact-heading-text-div">
