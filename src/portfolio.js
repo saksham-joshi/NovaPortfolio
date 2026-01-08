@@ -502,7 +502,7 @@ const experience = {
           logo_path: "experience/unitewings-logo.png",
           duration: "May 2025 - Nov 2025",
           location: "Hybrid",
-          description: "Delivered automated verification systems, GitHub-based data synchronization pipelines, and production-grade web deployments using FastAPI, Python, Next.js, and Vercel. Built responsive frontends and streamlined workflows that removed manual effort and improved operational efficiency.",
+          description: "Developed and deployed an automated certificate verification RESTful API using FastAPI (Python) on Vercel reducing hours of manual verification effort by implementing a Cross-Repository GitHub Workflow to automate data synchronization between private and public repositories. Built and deployed the Unite Wings official website using Next.js, hosted on Vercel with a custom domain after configuring Hostinger DNS to Vercel Nameservers.",
           color: "#000000",
         },
         {
@@ -529,7 +529,7 @@ const experience = {
           duration: "Dec 2025 - Present",
           location: "Remote",
           description:
-            "Improved UI responsiveness across multiple React components and built an in-app PDF resume viewer with React state management, eliminating the need for external downloads.",
+            "Developed and implemented a comprehensive Resume page feature with PDF rendering capabilities using ReactPDF, enabling users to view and download resumes directly on the website without external navigation. Enhanced mobile responsiveness across multiple React.js components, including the navbar and experience cards, improving user experience through responsive design adjustments for mobile, tablet, and desktop viewports.",
           color: "#000000",
         }
       ],
