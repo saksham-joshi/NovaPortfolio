@@ -24,7 +24,7 @@ export default class ResumePage extends Component {
     const screen_width = window.innerWidth;
     let new_width = screen_width;
 
-    if (screen_width > 786) {
+    if (screen_width > 872) {
       new_width = screen_width * 0.7;
     } else {
       new_width = screen_width * 0.9;
@@ -82,17 +82,16 @@ export default class ResumePage extends Component {
                 >
                   {pageCount &&
                     pageWidth &&
-                    Array.from(
-                      { length: pageCount },
-                      (_, i) => i + 1
-                    ).map((pageNum) => (
-                      <Page
-                        key={pageNum}
-                        width={pageWidth}
-                        pageNumber={pageNum}
-                        className="single-page"
-                      />
-                    ))}
+                    Array.from({ length: pageCount }, (_, i) => i + 1).map(
+                      (pageNum) => (
+                        <Page
+                          key={pageNum}
+                          width={pageWidth}
+                          pageNumber={pageNum}
+                          className="single-page"
+                        />
+                      )
+                    )}
                 </Document>
               )}
             </div>
