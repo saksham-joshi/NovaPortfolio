@@ -7,11 +7,22 @@
 [![Stars](https://img.shields.io/github/stars/saksham-joshi/NovaPortfolio?style=social)](https://github.com/saksham-joshi/NovaPortfolio)
 [![Live Demo](https://img.shields.io/badge/demo-online-success)](https://sakshamjoshi.vercel.app/)
 <div align="center">
-   <img src="https://skillicons.dev/icons?i=css,react,js,vercel" height="15%"/>
+   <img src="https://skillicons.dev/icons?i=css,react,js,vercel,pnpm" height="15%"/>
 </div>
 
 [View Demo](https://sakshamjoshi.vercel.app/) · [Report Bug](https://github.com/saksham-joshi/NovaPortfolio/issues) · [Request Feature](https://github.com/saksham-joshi/NovaPortfolio/issues)
 
+</div>
+
+---
+
+<div align="center">
+   <img src="./images/landing-page.png" width="200px">
+   <img src="./images/resume-section.png" width="200px">
+   <img src="./images/skill-section.png" width="200px">
+   <img src="./images/experience-section.png" width="200px">
+   <img src="./images/project-section.png" width="200px">
+   <img src="./images/education-section.png" width="200px">
 </div>
 
 ---
@@ -24,6 +35,7 @@ This portfolio template includes the following sections:
 - **💻 Skills** - Showcase your technical skills
 - **💼 Experience** - Display your work experience
 - **🎓 Education** - Highlight your educational background
+- **🖼️ Gallery** - Display some good moments of your life.
 - **🚀 Projects** - Feature your best projects
 - **📬 Contact** - Easy ways to get in touch
 - **📄 Resume** - Downloadable resume section
