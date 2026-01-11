@@ -17,12 +17,12 @@
 ---
 
 <div align="center">
-   <img src="./images/landing-page.png" width="200px">
-   <img src="./images/resume-section.png" width="200px">
-   <img src="./images/skill-section.png" width="200px">
-   <img src="./images/experience-section.png" width="200px">
-   <img src="./images/project-section.png" width="200px">
-   <img src="./images/education-section.png" width="200px">
+   <img src="./images/landing-page.png" width="300px">
+   <img src="./images/resume-section.png" width="300px">
+   <img src="./images/skill-section.png" width="300px">
+   <img src="./images/experience-section.png" width="300px">
+   <img src="./images/project-section.png" width="300px">
+   <img src="./images/education-section.png" width="300px">
 </div>
 
 ---
