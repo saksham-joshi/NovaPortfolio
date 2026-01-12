@@ -522,11 +522,21 @@ const experience = {
       title: "Open Source",
       experiences: [
         {
+          title: "Contributor and Maintainer",
+          company: "CosmoPortfolio",
+          company_url: "https://github.com/agusain2001/PortFolio",
+          logo_path: "experience/cosmo_portfolio.png",
+          duration: "Jan 2026 - Present",
+          location: "Remote",
+          description: "Fixed critical horizontal overflow issues across multiple components including navbar hamburger menu, chatbot button, and viewport elements, improving mobile user experience. Refactored codebase to eliminate hardcoded URLs by implementing centralized configuration file (values.tsx), enhancing maintainability and reducing technical debt. Resolved non-functional components by removing deprecated GitHub Activity Feed and unmaintained statistics API, improving application performance and reliability. Improved code organization and UI consistency by removing unused theme toggle components and fixing spacing issues in command palette interface.",
+          color: "#325dadff"
+        },
+        {
           title: "Contributor of Code and Design",
           company: "MasterPortfolio",
           company_url: "https://github.com/ashutosh1919/masterPortfolio",
           logo_path: "experience/masterportfolio.png",
-          duration: "Dec 2025 - Present",
+          duration: "Dec 2025 - Jan 2026",
           location: "Remote",
           description:
             "Developed and implemented a comprehensive Resume page feature with PDF rendering capabilities using ReactPDF, enabling users to view and download resumes directly on the website without external navigation. Enhanced mobile responsiveness across multiple React.js components, including the navbar and experience cards, improving user experience through responsive design adjustments for mobile, tablet, and desktop viewports.",
