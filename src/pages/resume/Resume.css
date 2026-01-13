@@ -7,10 +7,14 @@
 {
   margin-left: 5%;
   margin-right: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .resume-page
 {
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 .resume-page > *{
@@ -37,6 +41,9 @@
 .document-resume{
   display: grid;
   place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .single-page{
