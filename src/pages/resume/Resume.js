@@ -4,7 +4,6 @@ import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import "./Resume.css";
-import myResumePdf from "../../assets/docs/Resume_SakshamJoshi.pdf";
 
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { Document, Page, pdfjs } from "react-pdf";
@@ -66,7 +65,7 @@ export default class ResumePage extends Component {
             <Button
               text="📃 Download Resume"
               newTab={true}
-              href={myResumePdf}
+              href="/docs/Resume_SakshamJoshi.pdf"
               theme={theme}
               className="download-btn"
             />
@@ -75,7 +74,7 @@ export default class ResumePage extends Component {
                 <div className="error-messge">{error}</div>
               ) : (
                 <Document
-                  file={myResumePdf}
+                  file="/docs/Resume_SakshamJoshi.pdf"
                   onLoadSuccess={this.onDocumentLoadSuccess}
                   onLoadError={this.onDocumentLoadError}
                   className="document-resume"
