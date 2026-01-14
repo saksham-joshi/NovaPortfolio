@@ -524,11 +524,11 @@ const experience = {
         {
           title: "Contributor and Maintainer",
           company: "CosmoPortfolio",
-          company_url: "https://github.com/agusain2001/PortFolio",
+          company_url: "https://github.com/agusain2001/CosmoPortfolio",
           logo_path: "experience/cosmo_portfolio.png",
           duration: "Jan 2026 - Present",
           location: "Remote",
-          description: "Fixed critical horizontal overflow issues across multiple components including navbar hamburger menu, chatbot button, and viewport elements, improving mobile user experience. Refactored codebase to eliminate hardcoded URLs by implementing centralized configuration file (values.tsx), enhancing maintainability and reducing technical debt. Resolved non-functional components by removing deprecated GitHub Activity Feed and unmaintained statistics API, improving application performance and reliability. Improved code organization and UI consistency by removing unused theme toggle components and fixing spacing issues in command palette interface.",
+          description: "Architected complete routing system with React Router DOM and lazy loading using Suspense, improving initial page load time and overall site performance. Built responsive multi-page portfolio with Home, Skills, Projects, and Contact pages, ensuring seamless navigation and user experience across all devices. Optimized performance by implementing cursor observer caching, smooth scroll effects, and conditional rendering of CommandPalette and EasterEggs for non-touch devices.",
           color: "#325dadff"
         },
         {
