@@ -270,7 +270,14 @@ const skills = {
             color: "#F69220",
           },
         },
-        
+        {
+          skillName: "Hostinger",
+          fontAwesomeClassname: "simple-icons:hostinger",
+          style: {
+            backgroundColor: "transparent",
+            color: "#673DE6",
+          },
+        }
       ],
     },
     {
