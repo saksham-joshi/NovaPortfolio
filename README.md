@@ -46,7 +46,11 @@ This portfolio template includes the following sections:
 
 ### Prerequisites
 
-Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+- Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+- I recommend using pnpm as your package manager because it is great for disk efficiency and optimization.
+   ```
+   npm install -g pnpm@latest
+   ```
 
 ### Installation
 
