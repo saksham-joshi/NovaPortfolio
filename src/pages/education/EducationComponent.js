@@ -8,6 +8,8 @@ import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 import EduGallery from "../../containers/eduGallery/Gallery";
 import MortarBoard from "../../illustrations/MortarBoard";
+import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
+import { competitiveSites } from "../../portfolio";
 
 class Education extends Component {
   render() {
@@ -28,7 +30,7 @@ class Education extends Component {
                 <h3 className="heading-sub-text" style={{ color: theme.text }}>
                   Q U A L I F I C A T I O N S
                 </h3>
-                {/* <CompetitiveSites logos={competitiveSites.competitiveSites} /> */}
+                <CompetitiveSites logos={competitiveSites} />
               </div>
             </div>
           </Fade>
