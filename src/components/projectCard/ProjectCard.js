@@ -55,8 +55,8 @@ export default function ProjectCard({ repo, theme }) {
                   className="metric-chip"
                   style={{
                     backgroundColor: "transparent",
-                    color: theme.secondaryText,
-                    border: `1px solid ${theme.secondaryText}`,
+                    color: theme.text,
+                    border: `1px solid ${theme.text}`,
                   }}
                 >
                   {metric}
@@ -80,6 +80,7 @@ export default function ProjectCard({ repo, theme }) {
                       backgroundColor: theme.body,
                       color: theme.text,
                       border: `1px solid ${theme.text}`,
+                      fontWeight: 'bold'
                     }}
                   >
                     {tech}

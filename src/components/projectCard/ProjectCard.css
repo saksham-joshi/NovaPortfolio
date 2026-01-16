@@ -99,7 +99,8 @@
 }
 
 .project-link-btn:hover {
-  opacity: 0.8;
+  opacity: 0.6;
+  text-decoration: underline;
 }
 
 @media (max-width: 1080px) {
