@@ -65,6 +65,108 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "Web Development",
+      fileName: "FullStackImg",
+      skills: [
+        "— I Have quite good experience working on different web based projects",
+        "— I Know well to improve Search Engine Optimization(SEO) for better ranking on the web",
+      ],
+      softwareSkills: [
+        {
+          skillName: "HTML5",
+          fontAwesomeClassname: "simple-icons:html5",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "CSS3",
+          fontAwesomeClassname: "fa-css3",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "JavaScript",
+          fontAwesomeClassname: "simple-icons:javascript",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "TypeScript",
+          fontAwesomeClassname: "simple-icons:typescript",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3178C6",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NextJS",
+          fontAwesomeClassname: "simple-icons:nextdotjs",
+          style: {
+            color: "#000000",
+          },
+        },
+        {
+          skillName: "Tailwind CSS",
+          fontAwesomeClassname: "simple-icons:tailwindcss",
+          style: {
+            backgroundColor: "transparent",
+            color: "#37b6f1",
+          },
+        },
+        {
+          skillName: "Bun",
+          fontAwesomeClassname: "simple-icons:bun",
+          style: {
+            backgroundColor: "transparent",
+            color: "#ff34a4ff",
+          },
+        },
+        {
+          skillName: "Node.js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
+          style: {
+            backgroundColor: "transparent",
+            color: "#5FA04E",
+          },
+        },
+        {
+          skillName: "Npm",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            backgroundColor: "transparent",
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Pnpm",
+          fontAwesomeClassname: "simple-icons:pnpm",
+          style: {
+            backgroundColor: "transparent",
+            color: "#F69220",
+          },
+        },
+        {
+          skillName: "Hostinger",
+          fontAwesomeClassname: "simple-icons:hostinger",
+          style: {
+            backgroundColor: "transparent",
+            color: "#673DE6",
+          },
+        },
+      ],
+    },
+    {
       title: "Low Level Programming",
       fileName: "LowLevelProgImg",
       skills: [
@@ -173,108 +275,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:qt",
           style: {
             color: "#41CD52",
-          },
-        },
-      ],
-    },
-    {
-      title: "Web Development",
-      fileName: "FullStackImg",
-      skills: [
-        "— I Have quite good experience working on different web based projects",
-        "— I Know well to improve Search Engine Optimization(SEO) for better ranking on the web",
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
-        },
-        {
-          skillName: "TypeScript",
-          fontAwesomeClassname: "simple-icons:typescript",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3178C6",
-          },
-        },
-        {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
-        },
-        {
-          skillName: "NextJS",
-          fontAwesomeClassname: "simple-icons:nextdotjs",
-          style: {
-            color: "#000000",
-          },
-        },
-        {
-          skillName: "Tailwind CSS",
-          fontAwesomeClassname: "simple-icons:tailwindcss",
-          style: {
-            backgroundColor: "transparent",
-            color: "#37b6f1",
-          },
-        },
-        {
-          skillName: "Bun",
-          fontAwesomeClassname: "simple-icons:bun",
-          style: {
-            backgroundColor: "transparent",
-            color: "#ff34a4ff",
-          },
-        },
-        {
-          skillName: "Node.js",
-          fontAwesomeClassname: "simple-icons:nodedotjs",
-          style: {
-            backgroundColor: "transparent",
-            color: "#5FA04E",
-          },
-        },
-        {
-          skillName: "Npm",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            backgroundColor: "transparent",
-            color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Pnpm",
-          fontAwesomeClassname: "simple-icons:pnpm",
-          style: {
-            backgroundColor: "transparent",
-            color: "#F69220",
-          },
-        },
-        {
-          skillName: "Hostinger",
-          fontAwesomeClassname: "simple-icons:hostinger",
-          style: {
-            backgroundColor: "transparent",
-            color: "#673DE6",
           },
         },
       ],
