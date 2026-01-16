@@ -1,0 +1,110 @@
+.project-card {
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  flex: 1 1 30%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.2);
+}
+
+.project-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.project-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  object-fit: contain;
+}
+
+.project-title {
+  font-family: "Google Sans Regular";
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.project-description {
+  font-family: "Google Sans Regular";
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.project-footer {
+  margin-top: auto;
+}
+
+.project-tech-stack,
+.project-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tech-chip,
+.metric-chip {
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-family: "Google Sans Regular";
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.project-link-btn {
+  display: flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: "Google Sans Regular";
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.project-link-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  filter: brightness(0) invert(1);
+}
+
+/* Adjust icon color if button is light */
+.project-link-btn.light-theme-btn .project-link-icon {
+    filter: none;
+}
+
+.project-link-btn:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 1080px) {
+  .project-card {
+    flex: 1 1 100%;
+    margin-right: 0px;
+  }
+}
