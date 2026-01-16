@@ -17,11 +17,10 @@ const greeting = {
   nickname: "Creator of SRON",
   subTitle:
     "A Self-taught developer focused on developing advanced, low-level systems and technologies.",
-  resumeLink:
-    "/resume",
+  resumeLink: "/resume",
   portfolio_repository: "https://github.com/saksham-joshi/NovaPortfolio",
   githubProfile: "https://github.com/saksham-joshi",
-  githubProjectLink : "https://github.com/saksham-joshi?tab=repositories"
+  githubProjectLink: "https://github.com/saksham-joshi?tab=repositories",
 };
 
 const socialMediaLinks = [
@@ -79,7 +78,7 @@ const skills = {
           fontAwesomeClassname: "simple-icons:c",
           style: {
             backgroundColor: "transparent",
-            color: "#5d82acff"
+            color: "#5d82acff",
           },
         },
         {
@@ -95,7 +94,7 @@ const skills = {
           fontAwesomeClassname: "simple-icons:llvm",
           style: {
             backgroundColor: "transparent",
-            color: "#1a6586"
+            color: "#1a6586",
           },
         },
         {
@@ -109,19 +108,19 @@ const skills = {
         },
         {
           skillName: "GNU",
-          fontAwesomeClassname : "simple-icons:gnu",
-          style:{
+          fontAwesomeClassname: "simple-icons:gnu",
+          style: {
             backgroundColor: "transparent",
-            color: "#A42E2B"
-          }
+            color: "#A42E2B",
+          },
         },
         {
           skillName: "Bash Scripting",
-          fontAwesomeClassname : "simple-icons:gnubash",
-          style:{
+          fontAwesomeClassname: "simple-icons:gnubash",
+          style: {
             backgroundColor: "transparent",
-            color: "#4EAA25"
-          }
+            color: "#4EAA25",
+          },
         },
       ],
     },
@@ -131,7 +130,7 @@ const skills = {
       skills: [
         "— Experience working on projects of multiple domains using Python",
         "— APIs, Data Analysis, Natural-language Processing and Desktop App Development",
-        "— Deploying projects on Vercel and connecting domains from Hostinger to the vercel"
+        "— Deploying projects on Vercel and connecting domains from Hostinger to the vercel",
       ],
       softwareSkills: [
         {
@@ -277,7 +276,7 @@ const skills = {
             backgroundColor: "transparent",
             color: "#673DE6",
           },
-        }
+        },
       ],
     },
     {
@@ -387,7 +386,7 @@ const skills = {
 };
 
 const currentCourses = {
-  course : [
+  course: [
     {
       title: "Graphic Era University, Dehradun",
       subtitle: "Master's in Computer Application",
@@ -400,9 +399,9 @@ const currentCourses = {
         "⚡ Also, I was able to get pretty good grades while managing my internship, projects and academics.",
       ],
       website_link: "https://geu.ac.in/",
-    }
-  ]
-}
+    },
+  ],
+};
 
 const degrees = {
   degrees: [
@@ -423,71 +422,71 @@ const degrees = {
 };
 
 const educationGallery = {
-  gallery : [
+  gallery: [
     {
-      title : "Participated in Quiz",
-      subtitle : "Participated in C++ Quiz which I won further",
-      img_path : "bca_seminar.jpg",
-      alt_name : "C++ QUIZ",
-      color_code: "#FFBB0099"
+      title: "Participated in Quiz",
+      subtitle: "Participated in C++ Quiz which I won further",
+      img_path: "bca_seminar.jpg",
+      alt_name: "C++ QUIZ",
+      color_code: "#FFBB0099",
     },
     {
-      title : "Receiving Certificate",
-      subtitle : "Got #1 in C++ Competition",
-      img_path : "cpp_competition.jpg",
-      alt_name : "Receiving certificate from (Prof) Dr. MC Lohani",
-      color_code: "#0C9D5899"
+      title: "Receiving Certificate",
+      subtitle: "Got #1 in C++ Competition",
+      img_path: "cpp_competition.jpg",
+      alt_name: "Receiving certificate from (Prof) Dr. MC Lohani",
+      color_code: "#0C9D5899",
     },
     {
-      title : "Again #1",
-      subtitle : "#1 again in C++ Quiz",
-      img_path : "cpp_quiz.png",
-      alt_name : "Receiving certificate from (Prof) Dr. MC Lohani",
-      color_code: "#2A73CC"
+      title: "Again #1",
+      subtitle: "#1 again in C++ Quiz",
+      img_path: "cpp_quiz.png",
+      alt_name: "Receiving certificate from (Prof) Dr. MC Lohani",
+      color_code: "#2A73CC",
     },
     {
-      title : "Seminars",
-      subtitle : "Actively participated in Seminars",
+      title: "Seminars",
+      subtitle: "Actively participated in Seminars",
       img_path: "seminar_2.jpg",
-      alt_name : "Seminars",
-      color_code : "#356effff"
+      alt_name: "Seminars",
+      color_code: "#356effff",
     },
     {
-      title : "Bachelor's Degree",
-      subtitle : "BCA Degree Received",
-      img_path : "bca_degree.jpg",
-      alt_name : "BCA Degree",
-      color_code: "#4285F499"
+      title: "Bachelor's Degree",
+      subtitle: "BCA Degree Received",
+      img_path: "bca_degree.jpg",
+      alt_name: "BCA Degree",
+      color_code: "#4285F499",
     },
     {
-      title : "Bachelor's Convocation",
-      subtitle : "Attended 2024 Convocation at GEHU Dehradun",
-      img_path : "convocation_2024.jpg",
-      alt_name : "Convocation",
-      color_code: "#1F70C199"
+      title: "Bachelor's Convocation",
+      subtitle: "Attended 2024 Convocation at GEHU Dehradun",
+      img_path: "convocation_2024.jpg",
+      alt_name: "Convocation",
+      color_code: "#1F70C199",
     },
     {
-      title : "Launched SRON v2.1",
-      subtitle : "Celebrating launch of version 2.1 of SRON",
-      img_path : "sron_v2_1.jpg",
-      alt_name : "SRON v2.1's Cake Cutting",
-      color_code: "#c39a42ff"
+      title: "Launched SRON v2.1",
+      subtitle: "Celebrating launch of version 2.1 of SRON",
+      img_path: "sron_v2_1.jpg",
+      alt_name: "SRON v2.1's Cake Cutting",
+      color_code: "#c39a42ff",
     },
     {
-      title : "Blood donation",
-      subtitle : "Donating blood for welfare",
+      title: "Blood donation",
+      subtitle: "Donating blood for welfare",
       img_path: "blood_donate.jpg",
       alt_name: "Donating blood for welfare",
-      color_code : "#cc2929ff"
+      color_code: "#cc2929ff",
     },
     {
-      title : "SIH 2025",
-      subtitle : "Participated in SIH 2025",
-      img_path : "sih.jpg",
-      alt_name : "Hackathon",
-      color_code: "#D83B0199"
+      title: "SIH 2025",
+      subtitle: "Participated in SIH 2025",
+      img_path: "sih.jpg",
+      alt_name: "Hackathon",
+      color_code: "#D83B0199",
     },
-  ]
+  ],
 };
 
 // Experience Page
@@ -498,7 +497,6 @@ const experience = {
     "I have worked with startups and NGOs, delivering strong and reliable contributions",
   header_image_path: "experience.svg",
   sections: [
-    
     {
       title: "Internships",
       experiences: [
@@ -509,7 +507,8 @@ const experience = {
           logo_path: "experience/unitewings-logo.png",
           duration: "May 2025 - Nov 2025",
           location: "Hybrid",
-          description: "Developed and deployed an automated certificate verification RESTful API using FastAPI (Python) on Vercel reducing hours of manual verification effort by implementing a Cross-Repository GitHub Workflow to automate data synchronization between private and public repositories. Built and deployed the Unite Wings official website using Next.js, hosted on Vercel with a custom domain after configuring Hostinger DNS to Vercel Nameservers.",
+          description:
+            "Developed and deployed an automated certificate verification RESTful API using FastAPI (Python) on Vercel reducing hours of manual verification effort by implementing a Cross-Repository GitHub Workflow to automate data synchronization between private and public repositories. Built and deployed the Unite Wings official website using Next.js, hosted on Vercel with a custom domain after configuring Hostinger DNS to Vercel Nameservers.",
           color: "#000000",
         },
         {
@@ -535,8 +534,9 @@ const experience = {
           logo_path: "experience/cosmo_portfolio.png",
           duration: "Jan 2026 - Present",
           location: "Remote",
-          description: "Architected complete routing system with React Router DOM and lazy loading using Suspense, improving initial page load time and overall site performance. Built responsive multi-page portfolio with Home, Skills, Projects, and Contact pages, ensuring seamless navigation and user experience across all devices. Optimized performance by implementing cursor observer caching, smooth scroll effects, and conditional rendering of CommandPalette and EasterEggs for non-touch devices.",
-          color: "#325dadff"
+          description:
+            "Architected complete routing system with React Router DOM and lazy loading using Suspense, improving initial page load time and overall site performance. Built responsive multi-page portfolio with Home, Skills, Projects, and Contact pages, ensuring seamless navigation and user experience across all devices. Optimized performance by implementing cursor observer caching, smooth scroll effects, and conditional rendering of CommandPalette and EasterEggs for non-touch devices.",
+          color: "#325dadff",
         },
         {
           title: "Contributor of Code and Design",
@@ -548,9 +548,9 @@ const experience = {
           description:
             "Developed and implemented a comprehensive Resume page feature with PDF rendering capabilities using ReactPDF, enabling users to view and download resumes directly on the website without external navigation. Enhanced mobile responsiveness across multiple React.js components, including the navbar and experience cards, improving user experience through responsive design adjustments for mobile, tablet, and desktop viewports.",
           color: "#000000",
-        }
+        },
       ],
-    }
+    },
   ],
 };
 
@@ -558,10 +558,9 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create developer tools like compilers, interpreters, header files etc.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create beautiful portfolio websites and developer tools like compilers, interpreters, header files etc.",
   avatar_image_path: "projects_image.svg",
 };
-
 
 // Contact Page
 const contactPageData = {
@@ -595,6 +594,106 @@ const contactPageData = {
   },
 };
 
+const projectsData = [
+  {
+    title: "SRON",
+    icon: "sron.png",
+    description:
+      "Designed and developed a high-performance, cross-platform programming language with 90+ built-in functions and 101 keywords, achieving execution speeds faster than Python, Java, C#, and JavaScript in multiple bench-marks. Engineered compiler and interpreter from scratch using C++ incorporating automatic garbage collection and dynamic memory management.",
+    techStack: ["C++", "C", "Linux", "Windows", "Bash"],
+    metrics: [
+      "Static+Dynamically Typed",
+      "Compiled+Interpreted",
+      "Open-source",
+      "Multi-platform",
+    ],
+    links: [
+      {
+        text: "GitHub",
+        url: "https://github.com/saksham-joshi/SRON",
+        icon: "github.svg",
+      },
+      {
+        text: "Docs",
+        url: "https://sron.gitbook.io/docs",
+        icon: "book.svg",
+      },
+      {
+        text: "Download",
+        url: "https://sronlang.github.io/download.html",
+        icon: "download.svg",
+      },
+    ],
+  },
+  {
+    title: "NovaPortfolio",
+    icon: "nova_portfolio.png",
+    description:
+      "Developed a fully responsive React.js portfolio template for software developers with 7 key sections including skills, projects, experience, and resume viewer functionality. Designed single-file configuration system (portfolio.js) for easy customization, enabling developers to deploy personalized portfolios in minutes.",
+    techStack: ["React.js", "JavaScript", "CSS", "JSX", "Vercel", "Npm"],
+    metrics: ["ASMR", "Responsive", "Open-source"],
+    links: [
+      {
+        text: "GitHub",
+        url: "https://github.com/saksham-joshi/NovaPortfolio",
+        icon: "github.svg",
+      },
+      {
+        text: "View",
+        url: "https://sakshamjoshi.vercel.app",
+        icon: "eye.svg",
+      },
+    ],
+  },
+  {
+    title: "Sentiment Analyzer API",
+    icon: "sentiment_analyzer_api.png",
+    description:
+      "Analyze the sentiment of a text stored in a string or file and understand the reason why your blogs and posts are not ranking up.",
+    techStack: ["Python", "Flask", "Pandas", "Vercel", "Jupyter Notebook"],
+    metrics: ["Super Fast", "Open-source", "Accurate"],
+    links: [
+      {
+        text: "GitHub",
+        url: "https://github.com/saksham-joshi/Sentiment_Analyzer",
+        icon: "github.svg",
+      },
+      {
+        text: "View",
+        url: "https://sentiment-logic.netlify.app/front-end/",
+        icon: "eye.svg",
+      },
+    ],
+  },
+];
+
+const competitiveSites = [
+  {
+    siteName: "LeetCode",
+    iconifyClassname: "simple-icons:leetcode",
+    style: {
+      color: "#F79F1B",
+    },
+    profileLink: "https://leetcode.com/saksham-joshi/",
+  },
+  {
+    siteName: "HackerRank",
+    iconifyClassname: "simple-icons:hackerrank",
+    style: {
+      color: "#2EC866",
+    },
+    profileLink: "https://www.hackerrank.com/profile/social_sakshamj1",
+  },
+  {
+    siteName: "Codeforces",
+    iconifyClassname: "simple-icons:codeforces",
+    style: {
+      color: "#1F8ACB",
+    },
+    profileLink: "https://codeforces.com/profile/saksham-joshi",
+  },
+];
+
 export {
   seo,
   greeting,
@@ -606,12 +705,9 @@ export {
   experience,
   projectsHeader,
   contactPageData,
+  projectsData,
+  competitiveSites,
 };
-
-
-
-
-
 
 // const publicationsHeader = {
 //   title: "Publications",
@@ -627,27 +723,6 @@ export {
 //       createdAt: "2023-07-02",
 //       description: "Paper published in ",
 //       url: "https://arxiv.org/abs/",
-//     },
-//   ],
-// };
-
-// const competitiveSites = {
-//   competitiveSites: [
-//     {
-//       siteName: "LeetCode",
-//       iconifyClassname: "simple-icons:leetcode",
-//       style: {
-//         color: "#F79F1B",
-//       },
-//       profileLink: "https://leetcode.com/saksham-joshi/",
-//     },
-//     {
-//       siteName: "HackerRank",
-//       iconifyClassname: "simple-icons:hackerrank",
-//       style: {
-//         color: "#2EC866",
-//       },
-//       profileLink: "https://www.hackerrank.com/profile/social_sakshamj1",
 //     },
 //   ],
 // };
