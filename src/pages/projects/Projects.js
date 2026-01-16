@@ -1,15 +1,11 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
+import ProjectCard from "../../components/projectCard/ProjectCard";
 import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
-import {
-  greeting,
-  projectsHeader,
-} from "../../portfolio.js";
-import ProjectsData from "../../shared/projects_data.json";
+import { greeting, projectsHeader, projectsData } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectDesign from "../../illustrations/ProjectDesign.js";
 
@@ -43,8 +39,8 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo, index) => {
-            return <GithubRepoCard repo={repo} theme={theme} key={index}/>;
+          {projectsData.map((repo, index) => {
+            return <ProjectCard repo={repo} theme={theme} key={index} />;
           })}
         </div>
         <Button
