@@ -6,7 +6,7 @@ const seo = {
   og: {
     title: "Saksham Joshi Portfolio",
     type: "website",
-    url: "http://sakshamjoshi.vercel.app/",
+    url: "http://sakshamjoshi.vercel.app/icons/desc.png",
   },
 };
 
@@ -546,7 +546,7 @@ const experience = {
           duration: "Dec 2025 - Jan 2026",
           location: "Remote",
           description:
-            "Developed and implemented a comprehensive Resume page feature with PDF rendering capabilities using ReactPDF, enabling users to view and download resumes directly on the website without external navigation. Enhanced mobile responsiveness across multiple React.js components, including the navbar and experience cards, improving user experience through responsive design adjustments for mobile, tablet, and desktop viewports.",
+            "Developed and implemented a comprehensive Resume page feature with PDF rendering capabilities using ReactPDF, enabling users to view and download resumes directly on the website without external navigation. Enhanced mobile responsiveness across multiple React.js components, including the navbar and experience cards, improving user experience through responsive design adjustments for mobile, tablet, and desktop viewports. Fixed navbar style and responsiveness issues for screens below 1104px width, ensuring proper hamburger menu display.",
           color: "#000000",
         },
       ],
