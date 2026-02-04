@@ -8,6 +8,7 @@ import FullStackImg from "../../illustrations/FullStackImg";
 import LowLevelProgImg from "../../illustrations/LowLevelProgImg";
 import PythonProgImg from "../../illustrations/PythonProgImg";
 import ExtraTechImg from "../../illustrations/ExtraTechImg";
+import ServerImg from "../../illustrations/ServerImg";
 
 function GetSkillSvg(props) {
   
@@ -18,6 +19,8 @@ function GetSkillSvg(props) {
   else if (props.fileName === "PythonProgImg") return <PythonProgImg theme={props.theme} />;
 
   else if (props.fileName === "ExtraTechImg") return <ExtraTechImg theme={props.theme} />;
+
+  else if (props.fileName === "ServerImg") return <ServerImg theme={props.theme} />;
 
   return <ExtraTechImg theme={props.theme} />;
 
