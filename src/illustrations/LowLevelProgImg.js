@@ -11,7 +11,8 @@ export default class LowLevelProgImg extends Component {
         xmlns="http://www.w3.org/2000/svg"
         x="0px"
         y="0px"
-        width="100%"
+        width={512}
+        height={512}
         viewBox="0 0 1024 1024"
         enableBackground="new 0 0 1024 1024"
         space="preserve"
