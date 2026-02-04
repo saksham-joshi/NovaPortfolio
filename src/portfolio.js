@@ -156,14 +156,6 @@ const skills = {
             color: "#F69220",
           },
         },
-        {
-          skillName: "Hostinger",
-          fontAwesomeClassname: "simple-icons:hostinger",
-          style: {
-            backgroundColor: "transparent",
-            color: "#673DE6",
-          },
-        },
       ],
     },
     {
@@ -227,6 +219,63 @@ const skills = {
       ],
     },
     {
+      title : "Cloud Architecture",
+      fileName : "ServerImg",
+      skills : [
+        "— I have build highly scalable systems which can handle heavy load during peak hours",
+        "— These tools helped me to build scalable and super fast API's and backend"
+      ],
+      softwareSkills : [
+        {
+          skillName : "Supabase",
+          fontAwesomeClassname : "simple-icons:supabase",
+          style : {
+            backgroundColor : "transparent",
+            color : "#3FCF8E"
+          }
+        },
+        {
+          skillName : "Vercel",
+          fontAwesomeClassname : "simple-icons:vercel",
+          style : {
+            backgroundColor : "transparent",
+            color : "#000000"
+          }
+        },
+        {
+          skillName : "Render",
+          fontAwesomeClassname : "simple-icons:render",
+          style : {
+            backgroundColor : "transparent",
+            color : "#000000"
+          }
+        },
+        {
+          skillName: "Hostinger",
+          fontAwesomeClassname: "simple-icons:hostinger",
+          style: {
+            backgroundColor: "transparent",
+            color: "#673DE6",
+          },
+        },
+        {
+          skillName: "Github Pages",
+          fontAwesomeClassname: "simple-icons:githubpages",
+          style: {
+            backgroundColor: "transparent",
+            color: "#222222",
+          },
+        },
+        {
+          skillName: "Netlify",
+          fontAwesomeClassname: "simple-icons:netlify",
+          style: {
+            color: "#00C7B7",
+          },
+        },
+      ]
+    },
+    {
       title: "Python Programming",
       fileName: "PythonProgImg",
       skills: [
@@ -280,7 +329,7 @@ const skills = {
       ],
     },
     {
-      title: "Extra Tech",
+      title: "Tools I use",
       fileName: "ExtraTechImg",
       skills: [
         "— I have worked on multiple projects with so many different technologies being used",
@@ -342,28 +391,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:postman",
           style: {
             color: "#FF6C37",
-          },
-        },
-        {
-          skillName: "StackOverflow",
-          fontAwesomeClassname: "simple-icons:stackoverflow",
-          style: {
-            backgroundColor: "transparent",
-            color: "#F58025",
-          },
-        },
-        {
-          skillName: "Vercel",
-          fontAwesomeClassname: "simple-icons:vercel",
-          style: {
-            color: "#000000",
-          },
-        },
-        {
-          skillName: "Netlify",
-          fontAwesomeClassname: "simple-icons:netlify",
-          style: {
-            color: "#00C7B7",
           },
         },
         {
@@ -577,21 +604,21 @@ const contactPageData = {
     link: "https://www.linkedin.com/newsletters/7178072356291018752/",
     avatar_image_path: "blogs_image.svg",
   },
-  addressSection: {
-    title: "Address",
-    subtitle: "Clement Town, Dehradun, Uttarakhand, India",
-    locality: "Dehradun",
-    country: "India",
-    region: "Uttarakhand",
-    postalCode: "95129",
-    streetAddress: "Clement Town",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/UFXQhwaYJEs2mbZs6",
-  },
-  phoneSection: {
-    title: "",
-    subtitle: "",
-  },
+  // addressSection: {
+  //   title: "Address",
+  //   subtitle: ",
+  //   locality: "",
+  //   country: "India",
+  //   region: "",
+  //   postalCode: "",
+  //   streetAddress: "",
+  //   avatar_image_path: "address_image.svg",
+  //   location_map_link: "",
+  // },
+  // phoneSection: {
+  //   title: "",
+  //   subtitle: "",
+  // },
 };
 
 const projectsData = [
@@ -626,6 +653,26 @@ const projectsData = [
     ],
   },
   {
+    title: "Senti-Vox",
+    icon: "senti_vox.png",
+    description:
+      "A site + API to analyze the sentiment of multi-lingual text with extremely fast speed and accuracy. API is developed using elysia.js with bun runtime deployed in render. Site is developed using Supabase and Next.js with Bun runtime deployed in Vercel. Senti-vox supports English, Hindi, Marathi and Tamil.",
+    techStack: ["Next.js", "Typescript", "Bun", "Supabase", "Elysia.js"],
+    metrics: ["Super Fast", "Multi-lingual", "Accurate"],
+    links: [
+      {
+        text: "GitHub",
+        url: "https://github.com/saksham-joshi/Senti-Vox",
+        icon: "github.svg",
+      },
+      {
+        text: "View",
+        url: "https://senti-vox.vercel.app",
+        icon: "eye.svg",
+      },
+    ],
+  },
+  {
     title: "NovaPortfolio",
     icon: "nova_portfolio.png",
     description:
@@ -641,26 +688,6 @@ const projectsData = [
       {
         text: "View",
         url: "https://sakshamjoshi.vercel.app",
-        icon: "eye.svg",
-      },
-    ],
-  },
-  {
-    title: "Sentiment Analyzer API",
-    icon: "sentiment_analyzer_api.png",
-    description:
-      "Analyze the sentiment of a text stored in a string or file and understand the reason why your blogs and posts are not ranking up.",
-    techStack: ["Python", "Flask", "Pandas", "Vercel", "Jupyter Notebook"],
-    metrics: ["Super Fast", "Open-source", "Accurate"],
-    links: [
-      {
-        text: "GitHub",
-        url: "https://github.com/saksham-joshi/Sentiment_Analyzer",
-        icon: "github.svg",
-      },
-      {
-        text: "View",
-        url: "https://sentiment-logic.netlify.app/front-end/",
         icon: "eye.svg",
       },
     ],
