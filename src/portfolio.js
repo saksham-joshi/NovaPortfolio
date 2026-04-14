@@ -235,11 +235,27 @@ const skills = {
           }
         },
         {
+          skillName : "Firebase",
+          fontAwesomeClassname : "simple-icons:firebase",
+          style : {
+            backgroundColor : "transparent",
+            color : "#DD2C00"
+          }
+        },
+        {
           skillName : "Vercel",
           fontAwesomeClassname : "simple-icons:vercel",
           style : {
             backgroundColor : "transparent",
             color : "#000000"
+          }
+        },
+        {
+          skillName : "Upstash",
+          fontAwesomeClassname : "simple-icons:upstash",
+          style : {
+            backgroundColor : "transparent",
+            color : "#00E9A3"
           }
         },
         {
