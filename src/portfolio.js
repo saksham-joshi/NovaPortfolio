@@ -545,13 +545,13 @@ const experience = {
       experiences: [
         {
           title: "Software Engineer Intern",
-          company: "Unite Wings Educational Confederation",
-          company_url: "https://unitewings.com/",
-          logo_path: "experience/unitewings-logo.png",
+          company: "Arterns Technologies Pvt Ltd",
+          company_url: "https://arterns.in/",
+          logo_path: "experience/arterns-logo.png",
           duration: "May 2025 - Nov 2025",
           location: "Hybrid",
           description:
-            "Developed and deployed an automated certificate verification RESTful API using FastAPI (Python) on Vercel reducing hours of manual verification effort by implementing a Cross-Repository GitHub Workflow to automate data synchronization between private and public repositories. Built and deployed the Unite Wings official website using Next.js, hosted on Vercel with a custom domain after configuring Hostinger DNS to Vercel Nameservers.",
+            "Created and improved high-performance web apps with Elysia.js and Node.js, with a focus on type safety from start to finish and fast execution. Using Express.js and Flask, I designed and maintained strong RESTful APIs that made sure frontend and backend services could talk to each other without any problems. Added Firebase for cloud functions, real-time database management, and authentication, which made it easier to keep data in sync across platforms. Worked together on the entire software development life cycle (SDLC), from making prototypes to putting scalable server-side solutions into use.",
           color: "#000000",
         },
         {
