@@ -292,6 +292,44 @@ const skills = {
       ]
     },
     {
+      title : "Database Technologies",
+      fileName: "DatabaseImg",
+      skills : [
+        "— Proficient with relational and NoSQL databases, with experience optimizing queries & schema design across multiple production projects",
+        "— Experienced with caching, session management, and real-time data handling to improve application performance and scalability"
+      ],
+      softwareSkills : [
+        {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
+          style: {
+            color : "#4169E1"
+          }
+        },
+        {
+          skillName : "Drizzle ORM",
+          fontAwesomeClassname: "simple-icons:drizzle",
+          style : {
+            color: "#C5F74F"
+          }
+        },
+        {
+          skillName: "Redis",
+          fontAwesomeClassname: "simple-icons:redis",
+          style : {
+            color : "#FF4438"
+          }
+        },
+        {
+          skillName : "MongoDB",
+          fontAwesomeClassname : "simple-icons:mongodb",
+          style : {
+            color : "#47A248"
+          }
+        }
+      ]
+    },
+    {
       title: "Python Programming",
       fileName: "PythonProgImg",
       skills: [
