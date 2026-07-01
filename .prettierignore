@@ -1,7 +1,6 @@
-.github
-.git
-images
-node_modules
+dist
 build
+node_modules
+coverage
+src/assets
 public
-*.json
