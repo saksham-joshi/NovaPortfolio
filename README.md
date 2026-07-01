@@ -7,7 +7,7 @@
 [![Stars](https://img.shields.io/github/stars/saksham-joshi/NovaPortfolio?style=social)](https://github.com/saksham-joshi/NovaPortfolio)
 [![Live Demo](https://img.shields.io/badge/demo-online-success)](https://sakshamjoshi.vercel.app/)
 <div align="center">
-   <img src="https://skillicons.dev/icons?i=css,react,js,vercel,pnpm" height="15%"/>
+   <img src="https://skillicons.dev/icons?i=tailwind,react,ts,pnpm,vite,vercel" height="15%"/>
 </div>
 
 [View Demo](https://sakshamjoshi.vercel.app/) · [Report Bug](https://github.com/saksham-joshi/NovaPortfolio/issues) · [Request Feature](https://github.com/saksham-joshi/NovaPortfolio/issues)
@@ -72,14 +72,14 @@ This portfolio template includes the following sections:
 3. **Start the development server**
 
    ```bash
-   npm start
+   npm run dev
    or
-   pnpm start
+   pnpm run dev
    ```
 
 4. **Customize your portfolio**
 
-   Edit the `src/portfolio.js` file to add your personal information, projects, skills, and experience.
+   Edit the `.ts/.tsx` files in `src/lib` directory to add your personal information, projects, skills, and experience.
 
 5. **Deploy**
 
@@ -89,7 +89,7 @@ This portfolio template includes the following sections:
 
 ## 🎨 Customization
 
-All portfolio content can be customized by editing the `src/portfolio.js` file. This file contains structured data for all sections including personal information, skills, projects, experience, and more.
+All portfolio content can be customized by editing the `.ts/.tsx` files in `src/lib` directory. This file contains structured data for all sections including personal information, skills, projects, experience, and more.
 
 ---
 
