@@ -1,49 +1,61 @@
+@import 'tailwindcss';
+@config '../tailwind.config.ts';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
-  font-family: "Agustina Regular";
+  font-family: 'Agustina Regular';
   font-style: normal;
   font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina.woff") format("woff");
+  src:
+    local('Agustina Regular'),
+    url('./assets/fonts/Agustina.woff') format('woff');
 }
 @font-face {
-  font-family: "Montserrat";
-  src: local("Montserrat"),
-    url("./assets/fonts/Montserrat-Regular.ttf") format("woff");
+  font-family: 'Montserrat';
+  src:
+    local('Montserrat'),
+    url('./assets/fonts/Montserrat-Regular.ttf') format('woff');
 }
 @font-face {
-  font-family: "Google Sans Bold";
-  src: local("Google Sans Bold"),
-    url("./assets/fonts/GoogleSans-Bold.ttf") format("woff");
+  font-family: 'Google Sans Bold';
+  src:
+    local('Google Sans Bold'),
+    url('./assets/fonts/GoogleSans-Bold.ttf') format('woff');
 }
 @font-face {
-  font-family: "Google Sans Bold Italic";
-  src: local("Google Sans Bold Italic"),
-    url("./assets/fonts/GoogleSans-BoldItalic.ttf") format("woff");
+  font-family: 'Google Sans Bold Italic';
+  src:
+    local('Google Sans Bold Italic'),
+    url('./assets/fonts/GoogleSans-BoldItalic.ttf') format('woff');
 }
 @font-face {
-  font-family: "Google Sans Italic";
-  src: local("Google Sans Italic"),
-    url("./assets/fonts/GoogleSans-Italic.ttf") format("woff");
+  font-family: 'Google Sans Italic';
+  src:
+    local('Google Sans Italic'),
+    url('./assets/fonts/GoogleSans-Italic.ttf') format('woff');
 }
 @font-face {
-  font-family: "Google Sans Medium";
-  src: local("Google Sans Medium"),
-    url("./assets/fonts/GoogleSans-Medium.ttf") format("woff");
+  font-family: 'Google Sans Medium';
+  src:
+    local('Google Sans Medium'),
+    url('./assets/fonts/GoogleSans-Medium.ttf') format('woff');
 }
 @font-face {
-  font-family: "Google Sans Medium Italic";
-  src: local("Google Sans Medium Italic"),
-    url("./assets/fonts/GoogleSans-MediumItalic.ttf") format("woff");
+  font-family: 'Google Sans Medium Italic';
+  src:
+    local('Google Sans Medium Italic'),
+    url('./assets/fonts/GoogleSans-MediumItalic.ttf') format('woff');
 }
 @font-face {
-  font-family: "Google Sans Regular";
-  src: local("Google Sans Regular"),
-    url("./assets/fonts/GoogleSans-Regular.ttf") format("woff");
+  font-family: 'Google Sans Regular';
+  src:
+    local('Google Sans Regular'),
+    url('./assets/fonts/GoogleSans-Regular.ttf') format('woff');
 }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+
 html,
 body {
   scroll-behavior: smooth;
@@ -51,17 +63,12 @@ body {
 }
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font:
+    19px / 23px Montserrat,
+    'Montserrat',
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-/* Media Query */
-@media (max-width: 1380px) {
-  html,
-  body {
-    font-size: 16px;
-    line-height: normal;
-  }
 }
 
 ::-webkit-scrollbar {
@@ -76,3 +83,35 @@ body {
 ::-webkit-scrollbar-track {
   background-color: transparent; /* Color of the scrollbar background */
 }
+
+/* :root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+ */
