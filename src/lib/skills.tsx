@@ -94,7 +94,7 @@ import {
   SiPrettierHex
 } from '@icons-pack/react-simple-icons'
 
-import FullStackImg from '../illustrations/FullStackImg'
+import WebDevImg from '../illustrations/WebDevImg'
 import LowLevelProgImg from '../illustrations/LowLevelProgImg'
 import PythonProgImg from '../illustrations/PythonProgImg'
 import ExtraTechImg from '../illustrations/ExtraTechImg'
@@ -103,8 +103,8 @@ import DatabaseImg from '../illustrations/DatabaseImg'
 
 export const DATA_SKILLS = [
   {
-    title: 'Full Stack Dev',
-    fileName: FullStackImg,
+    title: 'Web Development',
+    fileName: WebDevImg,
     skills: [
       '— I Have quite good experience working on different web based projects',
       '— I Know well to improve Search Engine Optimization(SEO) for better ranking on the web'

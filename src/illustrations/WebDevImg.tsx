@@ -1,6 +1,6 @@
 import type { NovaIllustrationProps } from '../types/theme'
 
-export default function FullStackImg(props: NovaIllustrationProps) {
+export default function WebDevImg(props: NovaIllustrationProps) {
   const theme = props.theme
   return (
     <svg
