@@ -45,11 +45,7 @@ export default function Projects({ theme }: NovaThemeProps) {
 
         {/* "More Projects" Action Button */}
         <section className="mt-12 mb-8 flex justify-center select-none">
-          <Button
-            text="More Projects"
-            href={DATA_HOMEPAGE.url.githubProjects}
-            newTab={true}
-          />
+          <Button text="More Projects" href={DATA_HOMEPAGE.url.githubProjects} newTab={true} />
         </section>
       </main>
     </div>

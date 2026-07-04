@@ -56,11 +56,7 @@ export default function Contact({ theme }: NovaThemeProps) {
 
             {/* Subscription Button */}
             <div className="flex w-full justify-center">
-              <Button
-                text="Subscribe my Newsletter"
-                href={blogSection.link}
-                newTab={true}
-              />
+              <Button text="Subscribe my Newsletter" href={blogSection.link} newTab={true} />
             </div>
           </div>
 
