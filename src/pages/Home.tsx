@@ -7,7 +7,29 @@ import type { NovaThemeProps } from '../types/theme'
 // Import profile image
 import ProfileImg from '../assets/images/self/bw-rounded-corner.png'
 
+function formatYearsMonths(duration: { years: number; months: number }) {
+  return `${duration.years} yr${duration.years === 1 ? '' : 's'} ${duration.months} mo${duration.months === 1 ? '' : 's'}`
+}
+
 export default function Home({ theme }: NovaThemeProps) {
+  const homepageStats = [
+    {
+      label: 'IQ',
+      value: DATA_HOMEPAGE.iq,
+      caption: 'Problem solving'
+    },
+    {
+      label: 'Coding',
+      value: formatYearsMonths(DATA_HOMEPAGE.codingExperience),
+      caption: 'Experience'
+    },
+    {
+      label: 'Age',
+      value: formatYearsMonths(DATA_HOMEPAGE.age),
+      caption: 'Current'
+    }
+  ]
+
   return (
     <div className="flex min-h-screen flex-col">
       {/* Greeting Section */}
@@ -28,12 +50,43 @@ export default function Home({ theme }: NovaThemeProps) {
                 ( {DATA_HOMEPAGE.nickname} )
               </h2>
             )}
-            <p
+            {/* <p
               className="font-google-sans-medium mt-2 mb-6 text-center text-[16px] leading-relaxed sm:text-[20px] md:mr-10 md:text-left lg:text-[30px]"
               style={{ color: theme.secondaryText }}
             >
               {DATA_HOMEPAGE.subTitle}
-            </p>
+            </p> */}
+            <div className="mb-6 grid w-full grid-cols-1 gap-3 sm:grid-cols-2 md:mr-10 lg:grid-cols-3">
+              {homepageStats.map((stat) => (
+                <div
+                  key={stat.label}
+                  className="overflow-hidden rounded-lg border bg-theme-highlight/25 px-4 py-3 shadow-sm transition-transform duration-300 hover:-translate-y-1 sm:px-5 sm:py-4"
+                  style={{
+                    borderColor: theme.headerColor,
+                    
+                  }}
+                >
+                  <p
+                    className="font-google-sans-medium mb-1 text-center text-[12px] uppercase sm:text-left"
+                    style={{ color: theme.secondaryText }}
+                  >
+                    {stat.label}
+                  </p>
+                  <p
+                    className="font-google-sans-bold text-center text-[24px] leading-tight sm:text-left sm:text-[26px] lg:text-[24px]"
+                    style={{ color: theme.text }}
+                  >
+                    {stat.value}
+                  </p>
+                  <p
+                    className="font-google-sans mt-1 text-center text-[13px] sm:text-left"
+          
+                  >
+                    {stat.caption}
+                  </p>
+                </div>
+              ))}
+            </div>
             <div className="flex w-full justify-center md:justify-start">
               <Button text="📃 View My Resume" href="/resume" className="mt-2" />
             </div>

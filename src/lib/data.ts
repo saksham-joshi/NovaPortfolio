@@ -10,6 +10,31 @@ export const DATA_SEO = {
   }
 }
 
+function getDateDiff(
+  laterDate: Date,
+  earlierDate: Date
+): { years: number; months: number } {
+  let years = laterDate.getUTCFullYear() - earlierDate.getUTCFullYear()
+  let months = laterDate.getUTCMonth() - earlierDate.getUTCMonth()
+
+  // If the month hasn't occurred yet this year, subtract a year
+  if (months < 0) {
+    years--
+    months += 12
+  }
+
+  // If the day hasn't occurred yet this month, subtract a month
+  if (laterDate.getUTCDate() < earlierDate.getUTCDate()) {
+    months--
+    if (months < 0) {
+      years--
+      months += 12
+    }
+  }
+
+  return { years, months }
+}
+
 //Home Page
 export const DATA_HOMEPAGE = {
   title: 'Saksham Joshi',
@@ -22,5 +47,8 @@ export const DATA_HOMEPAGE = {
     repo: 'https://github.com/saksham-joshi/NovaPortfolio',
     github: 'https://github.com/saksham-joshi',
     githubProjects: 'https://github.com/saksham-joshi?tab=repositories'
-  }
+  },
+  iq : "136+",
+  age : getDateDiff(new Date(), new Date(2003, 5, 27)), // month requires 0th index
+  codingExperience : getDateDiff(new Date(), new Date(2022, 2, 1)) // month requires 0th index
 }
