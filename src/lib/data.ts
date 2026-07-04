@@ -10,10 +10,7 @@ export const DATA_SEO = {
   }
 }
 
-function getDateDiff(
-  laterDate: Date,
-  earlierDate: Date
-): { years: number; months: number } {
+function getDateDiff(laterDate: Date, earlierDate: Date): { years: number; months: number } {
   let years = laterDate.getUTCFullYear() - earlierDate.getUTCFullYear()
   let months = laterDate.getUTCMonth() - earlierDate.getUTCMonth()
 
@@ -48,7 +45,7 @@ export const DATA_HOMEPAGE = {
     github: 'https://github.com/saksham-joshi',
     githubProjects: 'https://github.com/saksham-joshi?tab=repositories'
   },
-  iq : "136+",
-  age : getDateDiff(new Date(), new Date(2003, 5, 27)), // month requires 0th index
-  codingExperience : getDateDiff(new Date(), new Date(2022, 2, 1)) // month requires 0th index
+  iq: '137+',
+  age: getDateDiff(new Date(), new Date(2003, 5, 27)), // month requires 0th index
+  codingExperience: getDateDiff(new Date(), new Date(2022, 2, 1)) // month requires 0th index
 }
