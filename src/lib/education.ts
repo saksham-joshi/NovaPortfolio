@@ -47,7 +47,7 @@ import ImageSron21 from '../assets/images/eduGallery/sron_v2_1.jpg'
 import ImageBloodDonate from '../assets/images/eduGallery/blood_donate.jpg'
 import ImageSih2025 from '../assets/images/eduGallery/sih.jpg'
 
-export const EDUCATION_GALLERY = [
+export const EDUCATION_GALLERY: NovaGalleryType[] = [
   {
     title: 'Participated in Quiz',
     subtitle: 'Participated in C++ Quiz which I won further',
@@ -116,8 +116,9 @@ export const EDUCATION_GALLERY = [
 import ImageIq137 from '../assets/certifications/arealme-iq-137.png'
 import ImageCpp1 from '../assets/certifications/certificate_cpp1.jpg'
 import ImageCpp2 from '../assets/certifications/certificate_cpp2.jpg'
+import type { NovaGalleryType } from '../types/galleryType'
 
-export const CERTIFICATION_GALLERY = [
+export const CERTIFICATION_GALLERY: NovaGalleryType[] = [
   {
     title: 'IQ 137',
     subtitle: 'Achieved IQ of 137 in July 2026',
