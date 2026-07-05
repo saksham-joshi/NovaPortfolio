@@ -123,7 +123,7 @@ import ImageCpp2 from '../assets/certifications/certificate_cpp2.jpg'
 export const CERTIFICATION_GALLERY = [
   {
     title : 'IQ 137',
-    subtitle: 'Achieved 137 of IQ in July 2026',
+    subtitle: 'Achieved IQ of 137 in July 2026',
     img : ImageIq137,
     altName: 'IQ 137',
     colorCode: '#b6f9ff'
