@@ -47,74 +47,71 @@ import ImageSron21 from '../assets/images/eduGallery/sron_v2_1.jpg'
 import ImageBloodDonate from '../assets/images/eduGallery/blood_donate.jpg'
 import ImageSih2025 from '../assets/images/eduGallery/sih.jpg'
 
-export const EDUCATION_GALLERY = {
-  gallery: [
-    {
-      title: 'Participated in Quiz',
-      subtitle: 'Participated in C++ Quiz which I won further',
-      img: ImageBcaSeminar,
-      altName: 'C++ QUIZ',
-      colorCode: '#FFBB0099'
-    },
-    {
-      title: 'Receiving Certificate',
-      subtitle: 'Got #1 in C++ Competition',
-      img: ImageCppComp,
-      altName: 'Receiving certificate from (Prof) Dr. MC Lohani',
-      colorCode: '#0C9D5899'
-    },
-    {
-      title: 'Again #1',
-      subtitle: '#1 again in C++ Quiz',
-      img: ImageCppQuiz,
-      altName: 'Receiving certificate from (Prof) Dr. MC Lohani',
-      colorCode: '#2A73CC'
-    },
-    {
-      title: 'Seminars',
-      subtitle: 'Actively participated in Seminars',
-      img: ImageSeminar2,
-      altName: 'Seminars',
-      colorCode: '#356effff'
-    },
-    {
-      title: "Bachelor's Degree",
-      subtitle: 'BCA Degree Received',
-      img: ImageBcaDegree,
-      altName: 'BCA Degree',
-      colorCode: '#4285F499'
-    },
-    {
-      title: "Bachelor's Convocation",
-      subtitle: 'Attended 2024 Convocation at GEHU Dehradun',
-      img: ImageBcaConvocation,
-      altName: 'Convocation',
-      colorCode: '#1F70C199'
-    },
-    {
-      title: 'Launched SRON v2.1',
-      subtitle: 'Celebrating launch of version 2.1 of SRON',
-      img: ImageSron21,
-      altName: "SRON v2.1's Cake Cutting",
-      colorCode: '#c39a42ff'
-    },
-    {
-      title: 'Blood donation',
-      subtitle: 'Donating blood for welfare',
-      img: ImageBloodDonate,
-      altName: 'Donating blood for welfare',
-      colorCode: '#cc2929ff'
-    },
-    {
-      title: 'SIH 2025',
-      subtitle: 'Participated in SIH 2025',
-      img: ImageSih2025,
-      altName: 'Hackathon',
-      colorCode: '#D83B0199'
-    }
-  ]
-} as const
-
+export const EDUCATION_GALLERY = [
+  {
+    title: 'Participated in Quiz',
+    subtitle: 'Participated in C++ Quiz which I won further',
+    img: ImageBcaSeminar,
+    altName: 'C++ QUIZ',
+    colorCode: '#FFBB0099'
+  },
+  {
+    title: 'Receiving Certificate',
+    subtitle: 'Got #1 in C++ Competition',
+    img: ImageCppComp,
+    altName: 'Receiving certificate from (Prof) Dr. MC Lohani',
+    colorCode: '#0C9D5899'
+  },
+  {
+    title: 'Again #1',
+    subtitle: '#1 again in C++ Quiz',
+    img: ImageCppQuiz,
+    altName: 'Receiving certificate from (Prof) Dr. MC Lohani',
+    colorCode: '#2A73CC'
+  },
+  {
+    title: 'Seminars',
+    subtitle: 'Actively participated in Seminars',
+    img: ImageSeminar2,
+    altName: 'Seminars',
+    colorCode: '#356effff'
+  },
+  {
+    title: "Bachelor's Degree",
+    subtitle: 'BCA Degree Received',
+    img: ImageBcaDegree,
+    altName: 'BCA Degree',
+    colorCode: '#4285F499'
+  },
+  {
+    title: "Bachelor's Convocation",
+    subtitle: 'Attended 2024 Convocation at GEHU Dehradun',
+    img: ImageBcaConvocation,
+    altName: 'Convocation',
+    colorCode: '#1F70C199'
+  },
+  {
+    title: 'Launched SRON v2.1',
+    subtitle: 'Celebrating launch of version 2.1 of SRON',
+    img: ImageSron21,
+    altName: "SRON v2.1's Cake Cutting",
+    colorCode: '#c39a42ff'
+  },
+  {
+    title: 'Blood donation',
+    subtitle: 'Donating blood for welfare',
+    img: ImageBloodDonate,
+    altName: 'Donating blood for welfare',
+    colorCode: '#cc2929ff'
+  },
+  {
+    title: 'SIH 2025',
+    subtitle: 'Participated in SIH 2025',
+    img: ImageSih2025,
+    altName: 'Hackathon',
+    colorCode: '#D83B0199'
+  }
+] as const
 
 import ImageIq137 from '../assets/certifications/arealme-iq-137.png'
 import ImageCpp1 from '../assets/certifications/certificate_cpp1.jpg'
@@ -122,24 +119,24 @@ import ImageCpp2 from '../assets/certifications/certificate_cpp2.jpg'
 
 export const CERTIFICATION_GALLERY = [
   {
-    title : 'IQ 137',
+    title: 'IQ 137',
     subtitle: 'Achieved IQ of 137 in July 2026',
-    img : ImageIq137,
+    img: ImageIq137,
     altName: 'IQ 137',
     colorCode: '#b6f9ff'
   },
   {
-    title : '#1 in C++ Quiz',
+    title: '#1 in C++ Quiz',
     subtitle: 'Certificate of #1 in C++ Quiz',
-    img : ImageCpp1,
+    img: ImageCpp1,
     altName: '#1 in C++',
-    colorCode: '#007c8f'
+    colorCode: '#00aec9'
   },
   {
-    title : 'Again #1 in C++ Competition',
+    title: 'Again #1 in C++ Competition',
     subtitle: 'Certificate of #1 in C++ Competition',
-    img : ImageCpp2,
+    img: ImageCpp2,
     altName: '#1 in C++',
     colorCode: '#c10000'
-  },
+  }
 ]
