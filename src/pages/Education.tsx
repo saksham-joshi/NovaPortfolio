@@ -2,7 +2,7 @@ import MortarBoard from '../illustrations/MortarBoard'
 import CompetitiveSites from '../components/CompetitiveSites'
 import DegreeCard from '../components/DegreeCard'
 import GalleryCard from '../components/GalleryCard'
-import { DATA_CURRENT_COURSE, DATA_DEGREE, EDUCATION_GALLERY } from '../lib/education'
+import { CERTIFICATION_GALLERY, DATA_CURRENT_COURSE, DATA_DEGREE, EDUCATION_GALLERY } from '../lib/education'
 import type { NovaThemeProps } from '../types/theme'
 
 export default function Education({ theme }: NovaThemeProps) {
@@ -79,10 +79,27 @@ export default function Education({ theme }: NovaThemeProps) {
               className="font-google-sans mb-8 text-center text-[30px] font-bold sm:text-[40px] lg:text-[50px]"
               style={{ color: theme.text }}
             >
-              Gallery
+              Certifications
             </h2>
             <div className="mx-auto grid max-w-[1100px] grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {EDUCATION_GALLERY.gallery.map((photoObject, index) => (
+                <GalleryCard gallery={photoObject} theme={theme} key={index} />
+              ))}
+            </div>
+          </section>
+        )}
+
+         {/* Gallery Grid */}
+        {CERTIFICATION_GALLERY.length > 0 && (
+          <section className="mt-16 select-none md:mt-24">
+            <h2
+              className="font-google-sans mb-8 text-center text-[30px] font-bold sm:text-[40px] lg:text-[50px]"
+              style={{ color: theme.text }}
+            >
+              Gallery
+            </h2>
+            <div className="mx-auto grid max-w-[1100px] grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+              {CERTIFICATION_GALLERY.map((photoObject, index) => (
                 <GalleryCard gallery={photoObject} theme={theme} key={index} />
               ))}
             </div>

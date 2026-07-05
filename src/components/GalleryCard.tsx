@@ -3,7 +3,7 @@ import type { NovaTheme } from '../types/theme'
 type GalleryPhoto = {
   readonly title: string
   readonly subtitle: string
-  readonly imgPath: string
+  readonly img: string
   readonly altName: string
   readonly colorCode: string
 }
@@ -32,7 +32,7 @@ export default function GalleryCard({ gallery, theme }: GalleryCardProps) {
         >
           <img
             className="z-10 m-[3px] h-[200px] w-auto max-w-[95%] rounded-[4px] object-contain select-none"
-            src={gallery.imgPath}
+            src={gallery.img}
             alt={gallery.altName}
           />
         </div>
