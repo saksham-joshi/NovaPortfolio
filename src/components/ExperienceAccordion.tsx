@@ -71,7 +71,7 @@ export default function ExperienceAccordion({ sections, theme }: ExperienceAccor
             {/* Content Drawer */}
             <div
               className={`overflow-hidden transition-all duration-500 ease-in-out ${
-                isOpen ? 'max-h-[3250px] opacity-100' : 'pointer-events-none max-h-0 opacity-0'
+                isOpen ? 'max-h-[3500px] opacity-100' : 'pointer-events-none max-h-0 opacity-0'
               }`}
             >
               <div className="flex flex-col gap-6 p-4 sm:p-6">
