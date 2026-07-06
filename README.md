@@ -89,7 +89,9 @@ This portfolio template includes the following sections:
 
 ## 🎨 Customization
 
-All portfolio content can be customized by editing the `.ts/.tsx` files in `src/lib` directory. This file contains structured data for all sections including personal information, skills, projects, experience, and more.
+- All portfolio content can be customized by editing the `.ts/.tsx` files in `src/lib` directory. This file contains structured data for all sections including personal information, skills, projects, experience, and more.
+
+- If you are searching for customizable illustrations then do visit [undraw.co](https://undraw.co/illustrations) for beautiful, free and open-source illustrations.
 
 ---
 
