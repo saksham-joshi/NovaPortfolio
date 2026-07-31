@@ -25,7 +25,7 @@ export const DATA_SOCIAL_MEDIA = [
   },
   {
     name: 'YouTube',
-    link: 'https://youtube.com/c/Saksham-Joshi',
+    link: 'https://youtube.com/@Saksham-Joshi',
     icon: (size: number) => <SiYoutube size={size} color={SiYoutubeHex} />
   },
   {
