@@ -26,10 +26,7 @@ export default function HeroSectionCards(theme: NovaTheme) {
       {homepageStats.map((stat) => (
         <div
           key={stat.label}
-          className="bg-theme-highlight/25 overflow-hidden rounded-lg border px-4 py-3 shadow-sm transition-transform duration-300 hover:-translate-y-1 sm:px-5 sm:py-4"
-          style={{
-            borderColor: theme.headerColor
-          }}
+          className="bg-theme-highlight/25 overflow-hidden rounded-lg px-4 py-3 shadow-sm transition-transform duration-300 hover:-translate-y-1 sm:px-5 sm:py-4"
         >
           <p
             className="font-google-sans-medium mb-1 text-center text-[12px] uppercase sm:text-left"
@@ -43,9 +40,6 @@ export default function HeroSectionCards(theme: NovaTheme) {
           >
             {stat.value}
           </p>
-          {/* <p className="font-google-sans mt-1 text-center text-[13px] sm:text-left">
-            {stat.caption}
-          </p> */}
         </div>
       ))}
     </div>
