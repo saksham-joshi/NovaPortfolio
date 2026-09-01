@@ -13,55 +13,55 @@ export const DATA_EXPERIENCE = {
   description:
     'Worked across multiple startups, completed internships, and contributed to open-source projects, consistently delivering high-quality softwares and great results.',
   sections: [
-    // {
-    //   title: 'Startups',
-    //   experiences: [
-    //     {
-    //       title: 'Founder & CTO',
-    //       company: 'HaveYourPR Agency',
-    //       orgUrl: 'https://haveyourpr.com',
-    //       logo: ImageHaveYourPR,
-    //       duration: 'June 2026 - Present',
-    //       location: 'On-site',
-    //       description:
-    //         'Founded this PR agency with three other co-founders. Led the entire technical development of the startup, including frontend, backend, database design, authentication, deployment, domain registration and configuration, custom domain email setup, and the development of a comprehensive admin panel to manage clients and automate internal operations. Additionally, developed multiple PR strategies to help clients expand their reach and acquire more customers. Built a strong professional network with influencers, local businesses, small-scale enterprises, and politicians.',
-    //       color: '#ffffff'
-    //     },
-    //     {
-    //       title: 'Founder',
-    //       company: 'Unite Wings Educational Confederation',
-    //       orgUrl: 'https://unitewings.com',
-    //       logo: ImageUniteWings,
-    //       duration: 'July 2024 - Sept 2024',
-    //       location: 'Hybrid',
-    //       description:
-    //         '[FAILED STARTUP] In this startup, we provided resume-building services, mock interviews, and educational courses to students. We hired more than 20 interns, including content writers, C++ engineers, software testers, front-end developers, and HR interns. Within a month, we gained more than 300 followers on LinkedIn. We also launched the SRON Contributors Program, through which we recruited C++ engineers and software testers to test and improve my programming language, SRON. I left the startup due to the incompetence and mismanagement of my co-founder, and the startup eventually failed.',
-    //       color: '#ffffff'
-    //     },
-    //     {
-    //       title: 'Founder',
-    //       company: 'Maryorn Esports',
-    //       orgUrl: '',
-    //       logo: ImageMaryornEsports,
-    //       duration: 'March 2022 - June 2022',
-    //       location: 'Online',
-    //       description:
-    //         "[FAILED STARTUP] Founded an esports organization focused on PUBG Mobile (now BGMI in India). Created and managed the organization\'s social media accounts and a professionally structured Discord server. Recruited and managed two Tier-2 esports lineups, each consisting of five players, and regularly registered them for daily scrims and tournaments to support their competitive practice. Organized two esports events. The first was a 1v1 Team Deathmatch (TDM) Tournament, which attracted 20 participants. The winner received a certificate and free entry to the second tournament. The second event was unsuccessful due to a ₹10 registration fee, resulting in no participant registrations. Owing to this outcome and increasing academic commitments, I decided to discontinue the organization.",
-    //       color: '#ffffff'
-    //     },
-    //     {
-    //       title: 'Founder',
-    //       company: 'Maryorn Logix',
-    //       orgUrl: '',
-    //       logo: ImageMaryornLogix,
-    //       duration: 'June 2020 - Nov 2020',
-    //       location: 'Online',
-    //       description:
-    //         "[FAILED STARTUP] Launched a solo software publishing start-up focusing on Android applications. Created custom Android applications on the AppGeyser.com and published on the Google Play Store. Successfully released five applications: M4 (web browser), Wall-X (wallpaper app), Crossy (crossword puzzle game), Task (to-do app) and Truth and Dare (bottle game). Google announced Android 11 in September 2020 and required developers to upgrade their apps to satisfy the latest platform requirements. At that point my programming experience was zero, and I was unable to make the necessary updates myself. I wrote to AppGeyser's support team, but unfortunately, I didn't get any response. So my google play console account got suspended at the end because the apps were not meeting the updated requirements and and my startup failed.",
-    //       color: '#ffffff'
-    //     }
-    //   ]
-    // },
+    {
+      title: 'Startups',
+      experiences: [
+        {
+          title: 'Founder & CTO',
+          company: 'HaveYourPR Agency',
+          orgUrl: 'https://haveyourpr.com',
+          logo: ImageHaveYourPR,
+          duration: 'June 2026 - Present',
+          location: 'On-site',
+          description:
+            'Founded this PR agency with three other co-founders. Led the entire technical development of the startup, including frontend, backend, database design, authentication, deployment, domain registration and configuration, custom domain email setup, and the development of a comprehensive admin panel to manage clients and automate internal operations. Additionally, developed multiple PR strategies to help clients expand their reach and acquire more customers. Built a strong professional network with influencers, local businesses, small-scale enterprises, and politicians.',
+          color: '#ffffff'
+        },
+        {
+          title: 'Founder',
+          company: 'Unite Wings Educational Confederation',
+          orgUrl: 'https://unitewings.com',
+          logo: ImageUniteWings,
+          duration: 'July 2024 - Sept 2024',
+          location: 'Hybrid',
+          description:
+            '[FAILED STARTUP] In this startup, we provided resume-building services, mock interviews, and educational courses to students. We hired more than 20 interns, including content writers, C++ engineers, software testers, front-end developers, and HR interns. Within a month, we gained more than 300 followers on LinkedIn. We also launched the SRON Contributors Program, through which we recruited C++ engineers and software testers to test and improve my programming language, SRON. I left the startup due to the incompetence and mismanagement of my co-founder, and the startup eventually failed.',
+          color: '#ffffff'
+        },
+        {
+          title: 'Founder',
+          company: 'Maryorn Esports',
+          orgUrl: '',
+          logo: ImageMaryornEsports,
+          duration: 'March 2022 - June 2022',
+          location: 'Online',
+          description:
+            "[FAILED STARTUP] Founded an esports organization focused on PUBG Mobile (now BGMI in India). Created and managed the organization\'s social media accounts and a professionally structured Discord server. Recruited and managed two Tier-2 esports lineups, each consisting of five players, and regularly registered them for daily scrims and tournaments to support their competitive practice. Organized two esports events. The first was a 1v1 Team Deathmatch (TDM) Tournament, which attracted 20 participants. The winner received a certificate and free entry to the second tournament. The second event was unsuccessful due to a ₹10 registration fee, resulting in no participant registrations. Owing to this outcome and increasing academic commitments, I decided to discontinue the organization.",
+          color: '#ffffff'
+        },
+        {
+          title: 'Founder',
+          company: 'Maryorn Logix',
+          orgUrl: '',
+          logo: ImageMaryornLogix,
+          duration: 'June 2020 - Nov 2020',
+          location: 'Online',
+          description:
+            "[FAILED STARTUP] Launched a solo software publishing start-up focusing on Android applications. Created custom Android applications on the AppGeyser.com and published on the Google Play Store. Successfully released five applications: M4 (web browser), Wall-X (wallpaper app), Crossy (crossword puzzle game), Task (to-do app) and Truth and Dare (bottle game). Google announced Android 11 in September 2020 and required developers to upgrade their apps to satisfy the latest platform requirements. At that point my programming experience was zero, and I was unable to make the necessary updates myself. I wrote to AppGeyser's support team, but unfortunately, I didn't get any response. So my google play console account got suspended at the end because the apps were not meeting the updated requirements and and my startup failed.",
+          color: '#ffffff'
+        }
+      ]
+    },
     {
       title: 'Internships',
       experiences: [
