@@ -1,23 +1,38 @@
 import React, { useState, useEffect, createContext, useContext } from 'react'
 
+// Match Vite's base path
+export const BASE_PATH = '/NovaPortfolio'
+
+// Helper to sanitize paths by stripping the base path prefix
+function getNormalizedPath(): string {
+  if (typeof window === 'undefined') return '/'
+  const pathname = window.location.pathname
+
+  if (pathname.startsWith(BASE_PATH)) {
+    const normalized = pathname.slice(BASE_PATH.length)
+    return normalized === '' ? '/' : normalized
+  }
+  return pathname
+}
+
 type NavigationContextProps = {
   path: string
   navigate: (to: string) => void
 }
 
 const NavigationContext = createContext<NavigationContextProps>({
-  path: typeof window !== 'undefined' ? window.location.pathname : '/',
+  path: typeof window !== 'undefined' ? getNormalizedPath() : '/',
   navigate: () => {}
 })
 
 export function RouterProvider({ children }: { children: React.ReactNode }) {
-  const [path, setPath] = useState(typeof window !== 'undefined' ? window.location.pathname : '/')
+  const [path, setPath] = useState(typeof window !== 'undefined' ? getNormalizedPath() : '/')
 
   useEffect(() => {
     if (typeof window === 'undefined') return
 
     const handlePopState = () => {
-      setPath(window.location.pathname)
+      setPath(getNormalizedPath())
     }
 
     window.addEventListener('popstate', handlePopState)
@@ -26,7 +41,12 @@ export function RouterProvider({ children }: { children: React.ReactNode }) {
 
   const navigate = (to: string) => {
     if (typeof window !== 'undefined') {
-      window.history.pushState(null, '', to)
+      // Ensure target path includes the base path prefix
+      const targetUrl = to.startsWith(BASE_PATH)
+        ? to
+        : `${BASE_PATH}${to.startsWith('/') ? '' : '/'}${to}`
+
+      window.history.pushState(null, '', targetUrl)
       setPath(to)
       window.scrollTo(0, 0)
     }
@@ -52,15 +72,17 @@ export function Link({ to, children, className, activeClassName, ...props }: Lin
   const { path, navigate } = useRouter()
 
   // Handle matching for active state
-  // Check if current path matches to, or if path is '/' and to is '/home' or vice-versa
   const isHomeMatch = (path === '/' || path === '/home') && (to === '/' || to === '/home')
   const isActive = path === to || isHomeMatch
   const combinedClassName =
     `${className ?? ''} ${isActive ? (activeClassName ?? 'font-bold') : ''}`.trim()
 
+  // Prepend base path for standard href fallback (e.g. right-click -> open in new tab)
+  const href = to.startsWith(BASE_PATH) ? to : `${BASE_PATH}${to.startsWith('/') ? '' : '/'}${to}`
+
   return (
     <a
-      href={to}
+      href={href}
       className={combinedClassName}
       onClick={(e) => {
         // Only override standard left-clicks with no modifiers
