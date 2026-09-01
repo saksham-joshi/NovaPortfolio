@@ -2,10 +2,10 @@ import ImageArterns from '../assets/images/experience/arterns-logo.png'
 import ImageCodeKaroYaaro from '../assets/images/experience/codekaroyaaro-logo.png'
 import ImageCosmoPortfolio from '../assets/images/experience/cosmo-portfolio.png'
 import ImageMasterPortfolio from '../assets/images/experience/master-portfolio.png'
-// import ImageHaveYourPR from '../assets/images/experience/haveyourpr.png'
-// import ImageUniteWings from '../assets/images/experience/unite-wings.png'
-// import ImageMaryornEsports from '../assets/images/experience/maryorn-esports.png'
-// import ImageMaryornLogix from '../assets/images/experience/maryorn-logix.png'
+import ImageHaveYourPR from '../assets/images/experience/haveyourpr.png'
+import ImageUniteWings from '../assets/images/experience/unite-wings.png'
+import ImageMaryornEsports from '../assets/images/experience/maryorn-esports.png'
+import ImageMaryornLogix from '../assets/images/experience/maryorn-logix.png'
 
 export const DATA_EXPERIENCE = {
   title: 'Experience',
