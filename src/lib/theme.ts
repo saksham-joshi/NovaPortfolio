@@ -226,18 +226,18 @@ export const materialTealTheme: NovaTheme = {
 }
 
 export const moderateBlueTheme: NovaTheme = {
-  body: '#488dcb', // Main page & card background — vibrant mid-blue
-  text: '#ffffff', // Primary text & interactive elements — pure white for max contrast
-  expTxtColor: '#0d1b2a', // Dark navy for experience section text (near-black for readability)
-  highlight: '#b8d9f5', // Sky-blue for nav hover bg & hero-card tint — soft, non-distracting
-  dark: '#0d1b2a', // Deep navy for SVG illustration bodies, hair, dark clothing
-  secondaryText: '#d4eaf7', // Pale powder-blue for secondary labels & skill descriptions
-  imageHighlight: '#1a6fbf', // Deeper cobalt for SVG accent circles, dividers, project box-shadows
-  compImgHighlight: '#cce3f4', // Light icy-blue for SVG illustration background shapes
-  jacketColor: '#1e3a5f', // Dark navy-indigo for SVG jacket/clothing & tooltip backgrounds
-  headerColor: '#2b6da877', // Semi-transparent mid-blue for DegreeCard headers & ProjectCard bg
-  splashBg: '#0d1b2a', // Very deep navy for the splash/loading screen
-  shadowColor: '#1a6fbf', // Cobalt for SocialMedia icon circle backgrounds
+  body: '#488dcb',
+  text: '#ffffff',
+  expTxtColor: '#0d1b2a',
+  highlight: '#b8d9f5',
+  dark: '#0d1b2a',
+  secondaryText: '#d4eaf7',
+  imageHighlight: '#1a6fbf',
+  compImgHighlight: '#cce3f4',
+  jacketColor: '#1e3a5f',
+  headerColor: '#2b6da877',
+  splashBg: '#0d1b2a',
+  shadowColor: '#1a6fbf',
   lightBgColor: '#b8d9f5'
 }
 
