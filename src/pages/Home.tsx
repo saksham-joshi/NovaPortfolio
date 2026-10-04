@@ -33,6 +33,8 @@ export default function Home({ theme }: NovaThemeProps) {
   }, [])
   return (
     <div className="flex min-h-screen flex-col">
+      {/* H1 Tag for SEO Optimization */}
+      <h1 className="hidden">About Saksham Joshi</h1>
       {/* Greeting Section */}
       <main className="animate-fade-in-up mx-auto mt-8 w-[90%] flex-1 px-[10px] py-5">
         <section className="flex flex-col justify-between gap-8 md:flex-row md:items-center md:gap-4">

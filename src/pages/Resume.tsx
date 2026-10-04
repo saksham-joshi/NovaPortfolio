@@ -7,6 +7,8 @@ const RESUME_URL = '/docs/Resume_SakshamJoshi.pdf'
 export default function Resume(_: NovaThemeProps) {
   return (
     <div className="flex max-h-[3200px] flex-col">
+      {/* H1 Tag for SEO Optimization */}
+      <h1 className="hidden">Resume of Saksham Joshi</h1>
       <main className="animate-fade-in-up mx-auto flex w-[100%] flex-1 flex-col items-center px-[10px] pt-5 pb-2">
         {/* Download Resume Button */}
         <section className="mt-4 mb-8 flex justify-center select-none">

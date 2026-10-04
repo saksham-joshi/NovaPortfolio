@@ -12,6 +12,8 @@ export default function Contact({ theme }: NovaThemeProps) {
 
   return (
     <div className="flex min-h-screen flex-col">
+      {/* H1 Tag for SEO Optimization */}
+      <h1 className="hidden">Contacts & Social Media of Saksham Joshi</h1>
       <main className="animate-fade-in-up mx-auto w-[90%] flex-1 px-[10px] py-5">
         {/* Contact Me Section */}
         <section className="mt-4 flex flex-col items-center justify-between gap-8 select-none md:flex-row md:gap-12">

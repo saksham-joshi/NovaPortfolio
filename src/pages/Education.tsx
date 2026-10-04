@@ -13,6 +13,8 @@ import GallerySection from '../components/GallerySection'
 export default function Education({ theme }: NovaThemeProps) {
   return (
     <div className="flex min-h-screen flex-col">
+      {/* H1 Tag for SEO Optimization */}
+      <h1 className="hidden">Education of Saksham Joshi</h1>
       <main className="animate-fade-in-up mx-auto w-[90%] flex-1 px-[10px] py-5">
         {/* Header Block */}
         <section className="mt-4 flex flex-col items-center justify-between gap-8 md:flex-row md:gap-12">
