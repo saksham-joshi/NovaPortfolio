@@ -6,12 +6,13 @@ type ProjectLink = {
   readonly icon: string // static import path
 }
 
+type TechStackIconFnc = (size: number) => React.JSX.Element
+
 type ProjectData = {
   readonly title: string
   readonly icon: string // static import path
   readonly description: string
-  readonly techStack: readonly string[]
-  readonly metrics?: readonly string[]
+  readonly techStack: readonly TechStackIconFnc[]
   readonly links: readonly ProjectLink[]
 }
 
@@ -23,7 +24,7 @@ type ProjectCardProps = {
 export default function ProjectCard({ repo, theme }: ProjectCardProps) {
   return (
     <div
-      className="animate-fade-in-up mb-8 flex flex-1 cursor-pointer flex-col rounded-[10px] p-6 transition-all duration-300 ease-in-out select-none hover:-translate-y-1 hover:shadow-2xl sm:p-8"
+      className="animate-fade-in-up mb-8 flex flex-1 cursor-pointer flex-col rounded-[10px] p-6 px-3 transition-all duration-300 ease-in-out select-none hover:-translate-y-1 hover:shadow-2xl sm:p-8 sm:px-6"
       style={{
         backgroundColor: theme.headerColor,
         boxShadow: `0px 2px 10px ${theme.imageHighlight}44` // added small opacity to look softer and premium
@@ -49,25 +50,6 @@ export default function ProjectCard({ repo, theme }: ProjectCardProps) {
         </h2>
       </div>
 
-      {/* Metrics Chips */}
-      {repo.metrics && (
-        <div className="mb-4 flex flex-wrap gap-2 select-none">
-          {repo.metrics.map((metric, index) => (
-            <span
-              key={index}
-              className="font-google-sans rounded-full border px-[10px] py-[5px] text-[12px] font-semibold opacity-90 transition-all duration-200 select-none"
-              style={{
-                backgroundColor: 'transparent',
-                color: theme.text,
-                borderColor: theme.text
-              }}
-            >
-              {metric}
-            </span>
-          ))}
-        </div>
-      )}
-
       {/* Project Description */}
       <p
         className="font-google-sans mb-6 flex-grow text-[15px] leading-relaxed sm:text-[16px]"
@@ -83,14 +65,13 @@ export default function ProjectCard({ repo, theme }: ProjectCardProps) {
             {repo.techStack.map((tech, index) => (
               <span
                 key={index}
-                className="font-google-sans rounded-full border px-[10px] py-[5px] text-[12px] font-bold opacity-95 transition-all duration-200 select-none"
+                className="font-google-sans mr-1 rounded-lg px-[4px] py-[4px] text-[12px] font-bold opacity-95 transition-all duration-200 select-none sm:mr-2"
                 style={{
                   backgroundColor: theme.body,
-                  color: theme.text,
-                  borderColor: theme.text
+                  color: theme.text
                 }}
               >
-                {tech}
+                {tech(28)}
               </span>
             ))}
           </div>
@@ -104,18 +85,13 @@ export default function ProjectCard({ repo, theme }: ProjectCardProps) {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="font-google-sans flex cursor-pointer items-center rounded-[5px] border px-4 py-2 text-[14px] font-semibold no-underline transition-all duration-200 select-none hover:underline hover:opacity-75 sm:text-[16px]"
-              style={{
-                backgroundColor: theme.text,
-                color: theme.body,
-                borderColor: theme.text
-              }}
+              className="font-google-sans bg-theme-text text-theme-body hover:bg-theme-body hover:text-theme-text flex cursor-pointer items-center rounded-[5px] px-4 py-2 text-[14px] font-semibold no-underline transition-all duration-200 select-none hover:border active:border sm:text-[16px]"
             >
               {link.icon && (
                 <img
                   src={link.icon}
                   alt=""
-                  className="mr-2 h-4 w-4 object-contain brightness-0 invert select-none"
+                  className="text-theme-text mr-2 h-4 w-4 object-contain brightness-0 invert select-none"
                 />
               )}
               {link.text}
