@@ -6,7 +6,7 @@ export const DATA_SEO = {
   og: {
     title: 'Saksham Joshi Portfolio',
     type: 'website',
-    url: 'http://sakshamjoshi.vercel.app/icons/desc.png'
+    url: 'http://sakshamjoshi.com/icons/desc.png'
   }
 }
 

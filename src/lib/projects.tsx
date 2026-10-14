@@ -122,7 +122,7 @@ export const DATA_PROJECTS = [
       },
       {
         text: 'View',
-        url: 'https://sakshamjoshi.vercel.app',
+        url: 'https://sakshamjoshi.com',
         icon: ImageEye
       }
     ]
