@@ -1,13 +1,9 @@
-import CanvaImg from '../svgs/Canva'
 import ElysiajsImg from '../svgs/Elysiajs'
-import JavaImg from '../svgs/Java'
 import MatplotlibImg from '../svgs/Matplotlib'
 import VscodeImg from '../svgs/VscodeImg'
 import RedisImg from '../svgs/RedisImg'
 import NodemailerImg from '../svgs/Nodemailer'
 import {
-  SiHtml5,
-  SiCss,
   SiJavascript,
   SiTypescript,
   SiReact,
@@ -50,8 +46,6 @@ import {
   SiJupyter,
   SiEslint,
   SiPrettier,
-  SiHtml5Hex,
-  SiCssHex,
   SiJavascriptHex,
   SiTypescriptHex,
   SiReactHex,
@@ -91,7 +85,15 @@ import {
   SiPostmanHex,
   SiJupyterHex,
   SiEslintHex,
-  SiPrettierHex
+  SiPrettierHex,
+  SiExpress,
+  SiExpressHex,
+  SiYarn,
+  SiYarnHex,
+  SiNgrok,
+  SiNgrokHex,
+  SiGit,
+  SiGitHex
 } from '@icons-pack/react-simple-icons'
 
 import WebDevImg from '../illustrations/WebDevImg'
@@ -103,11 +105,11 @@ import DatabaseImg from '../illustrations/DatabaseImg'
 
 export const DATA_SKILLS = [
   {
-    title: 'Web Development',
+    title: 'Web Apps & APIs Development',
     fileName: WebDevImg,
     skills: [
-      '— I Have quite good experience working on different web based projects',
-      '— I Know well to improve Search Engine Optimization(SEO) for better ranking on the web'
+      '— Quite good experience developing highly optimized Web Apps and APIs',
+      '— Improved SEO, AEO and GEO of a lot of websites of mine and my clients'
     ],
     softwareSkills: [
       {
@@ -131,16 +133,12 @@ export const DATA_SKILLS = [
         icon: (size: number) => ElysiajsImg(size)
       },
       {
+        skillName: 'Express.js',
+        icon: (size: number) => <SiExpress size={size} color={SiExpressHex} />
+      },
+      {
         skillName: 'Tailwind CSS',
         icon: (size: number) => <SiTailwindcss size={size} color={SiTailwindcssHex} />
-      },
-      {
-        skillName: 'HTML5',
-        icon: (size: number) => <SiHtml5 size={size} color={SiHtml5Hex} />
-      },
-      {
-        skillName: 'CSS3',
-        icon: (size: number) => <SiCss size={size} color={SiCssHex} />
       },
       {
         skillName: 'Bun',
@@ -157,6 +155,10 @@ export const DATA_SKILLS = [
       {
         skillName: 'Pnpm',
         icon: (size: number) => <SiPnpm size={size} color={SiPnpmHex} />
+      },
+      {
+        skillName: 'Yarn',
+        icon: (size: number) => <SiYarn size={size} color={SiYarnHex} />
       }
     ]
   },
@@ -164,9 +166,9 @@ export const DATA_SKILLS = [
     title: 'Low Level Programming',
     fileName: LowLevelProgImg,
     skills: [
-      '— Developing highly optimized technologies like compilers, interpreter etc.',
+      '— Developed highly optimized technologies like compilers, interpreters etc.',
       '— Experience of working with complex cross-platform projects',
-      '— Optimizing and maintaining multi-platform header files for applications'
+      '— Optimizing and maintaining multi-platform C and C++ header files for applications'
     ],
     softwareSkills: [
       {
@@ -178,7 +180,7 @@ export const DATA_SKILLS = [
         icon: (size: number) => <SiCplusplus size={size} color={SiCplusplusHex} />
       },
       {
-        skillName: 'LLVM',
+        skillName: 'Clang',
         icon: (size: number) => <SiLlvm size={size} color={SiLlvmHex} />
       },
       {
@@ -272,8 +274,7 @@ export const DATA_SKILLS = [
     fileName: PythonProgImg,
     skills: [
       '— Experience working on projects of multiple domains using Python',
-      '— APIs, Data Analysis, Natural-language Processing and Desktop App Development',
-      '— Deploying projects on Vercel and connecting domains from Hostinger to the vercel'
+      '— APIs, Data Analysis, Natural-language Processing and Desktop App Development'
     ],
     softwareSkills: [
       {
@@ -303,6 +304,10 @@ export const DATA_SKILLS = [
       {
         skillName: 'PyQT5',
         icon: (size: number) => <SiQt size={size} color={SiQtHex} />
+      },
+      {
+        skillName: 'Jupyter',
+        icon: (size: number) => <SiJupyter size={size} color={SiJupyterHex} />
       }
     ]
   },
@@ -319,12 +324,16 @@ export const DATA_SKILLS = [
         icon: (size: number) => <SiPerplexity size={size} color={SiPerplexityHex} />
       },
       {
-        skillName: 'VsCode',
-        icon: (size: number) => VscodeImg(size)
+        skillName: 'Ngrok',
+        icon: (size: number) => <SiNgrok size={size} color={SiNgrokHex} />
       },
       {
-        skillName: 'Java',
-        icon: (size: number) => JavaImg(size)
+        skillName: 'Git',
+        icon: (size: number) => <SiGit size={size} color={SiGitHex} />
+      },
+      {
+        skillName: 'VsCode',
+        icon: (size: number) => VscodeImg(size)
       },
       {
         skillName: 'Eslint',
@@ -357,14 +366,6 @@ export const DATA_SKILLS = [
       {
         skillName: 'Postman',
         icon: (size: number) => <SiPostman size={size} color={SiPostmanHex} />
-      },
-      {
-        skillName: 'Jupyter',
-        icon: (size: number) => <SiJupyter size={size} color={SiJupyterHex} />
-      },
-      {
-        skillName: 'Canva',
-        icon: (size: number) => CanvaImg(size)
       }
     ]
   }
