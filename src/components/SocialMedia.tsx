@@ -7,7 +7,7 @@ type SocialMediaProps = {
 
 export default function SocialMedia({ theme }: SocialMediaProps) {
   return (
-    <div className="animate-fade-in flex flex-wrap justify-center gap-3 py-4 select-none">
+    <div className="animate-fade-in flex justify-center gap-3 py-4 select-none">
       {DATA_SOCIAL_MEDIA.map((media) => {
         // Inline CSS variable for brand color hover transition
         const itemStyle = {
@@ -23,7 +23,7 @@ export default function SocialMedia({ theme }: SocialMediaProps) {
             rel="noopener noreferrer"
             title={media.name}
             style={itemStyle}
-            className="group flex h-[2.5rem] w-[2.5rem] cursor-pointer items-center justify-center rounded-full bg-[var(--brand-color)] transition-all duration-300 ease-in-out hover:bg-[var(--hover-color)] [&>svg]:!fill-white"
+            className="group flex h-[2.3rem] w-[2.3rem] cursor-pointer items-center justify-center rounded-full bg-[var(--brand-color)] transition-all duration-300 ease-in-out hover:bg-[var(--hover-color)] sm:h-[2.5rem] sm:w-[2.5rem] [&>svg]:!fill-white"
           >
             {/* Call the icon function with size 20 */}
             {media.icon(22)}
