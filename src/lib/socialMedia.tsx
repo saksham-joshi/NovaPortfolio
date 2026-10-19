@@ -4,6 +4,8 @@ import {
   SiGithubHex,
   SiGmail,
   SiGmailHex,
+  SiHuggingface,
+  SiHuggingfaceHex,
   SiInstagram,
   SiInstagramHex,
   SiX,
@@ -22,6 +24,11 @@ export const DATA_SOCIAL_MEDIA = [
     name: 'LinkedIn',
     link: 'https://www.linkedin.com/in/sakshamjoshi27/',
     icon: (size: number) => LinkedinImg(size)
+  },
+  {
+    name: 'HuggingFace',
+    link: 'https://huggingface.co/saksham-joshi',
+    icon: (size: number) => <SiHuggingface size={size} color={SiHuggingfaceHex} />
   },
   {
     name: 'YouTube',
