@@ -92,12 +92,12 @@ export const DATA_PROJECTS = [
     links: [
       {
         text: 'GitHub',
-        url: 'https://github.com/saksham-joshi/Senti-Vox',
+        url: 'https://github.com/saksham-joshi/SentiVox',
         icon: ImageGithub
       },
       {
         text: 'View',
-        url: 'https://senti-vox.vercel.app',
+        url: 'https://sentivox.sakshamjoshi.com',
         icon: ImageEye
       }
     ]
