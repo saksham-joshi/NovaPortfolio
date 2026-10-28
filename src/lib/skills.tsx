@@ -121,11 +121,11 @@ export const DATA_SKILLS = [
         icon: (size: number) => <SiTypescript size={size} color={SiTypescriptHex} />
       },
       {
-        skillName: 'ReactJS',
+        skillName: 'React.js',
         icon: (size: number) => <SiReact size={size} color={SiReactHex} />
       },
       {
-        skillName: 'NextJS',
+        skillName: 'Next.js',
         icon: (size: number) => <SiNextdotjs size={size} color={SiNextdotjsHex} />
       },
       {
@@ -356,7 +356,7 @@ export const DATA_SKILLS = [
         icon: (size: number) => <SiVirtualbox size={size} color={SiVirtualboxHex} />
       },
       {
-        skillName: 'MarkDown',
+        skillName: 'Markdown',
         icon: (size: number) => <SiMarkdown size={size} color={SiMarkdownHex} />
       },
       {
