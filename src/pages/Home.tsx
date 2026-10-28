@@ -65,7 +65,7 @@ export default function Home({ theme }: NovaThemeProps) {
             <img
               src={ProfileImg}
               alt="Saksham Joshi profile"
-              className="h-auto max-w-[80%] select-none sm:max-w-[60%] md:max-w-full"
+              className="h-auto max-w-[95%] select-none sm:max-w-[60%] md:max-w-full"
             />
           </div>
 
