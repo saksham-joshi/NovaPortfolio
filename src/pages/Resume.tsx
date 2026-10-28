@@ -2,8 +2,8 @@ import Button from '../components/Button'
 import ResumeViewer from '../components/ResumeViewer'
 import type { NovaThemeProps } from '../types/theme'
 
-const RESUME_URL_1 = '/docs/Resume_SakshamJoshi.pdf'
-const RESUME_URL_2 = '/docs/Resume_SakshamJoshi_FullStack.pdf'
+const RESUME_URL_1 = '/docs/Saksham_Joshi_Software_Engineer_2026_Resume.pdf'
+const RESUME_URL_2 = '/docs/Saksham_Joshi_Full_Stack_Engineer_2026_Resume.pdf'
 
 export default function Resume(_: NovaThemeProps) {
   const theme = _.theme
