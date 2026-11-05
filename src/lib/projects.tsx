@@ -1,6 +1,7 @@
 import ImageSron from '../assets/images/project/sron.png'
 import ImageNovaPortfolio from '../assets/images/project/nova-portfolio.png'
 import ImageSentivox from '../assets/images/project/sentivox.png'
+import ImageFreeQR from '../assets/images/project/free-qr.png'
 
 import ImageGithub from '../assets/svgs/github.svg'
 import ImageEye from '../assets/svgs/eye.svg'
@@ -32,7 +33,13 @@ import {
   SiPnpm,
   SiVercel,
   SiRender,
-  SiRenderHex
+  SiRenderHex,
+  SiPython,
+  SiPythonHex,
+  SiFastapi,
+  SiFastapiHex,
+  SiVite,
+  SiViteHex
 } from '@icons-pack/react-simple-icons'
 
 import ElysiajsImg from '../svgs/Elysiajs'
@@ -98,6 +105,30 @@ export const DATA_PROJECTS = [
       {
         text: 'View',
         url: 'https://sentivox.sakshamjoshi.com',
+        icon: ImageEye
+      }
+    ]
+  },
+  {
+    title: 'FreeQR',
+    icon: ImageFreeQR,
+    description:
+      'Generate free unlimited QR codes with custom colors and designs! Paste a link, choose the pattern, corner frames, corner dots, colors (solid or gradient), background (or transparent), a center picture, the image size and margins, then download it as SVG, PNG or JPG.',
+    techStack: [
+      (size: number) => <SiFastapi size={size} color={SiFastapiHex} />,
+      (size: number) => <SiPython size={size} color={SiPythonHex} />,
+      (size: number) => <SiReact size={size} color={SiReactHex} />,
+      (size: number) => <SiVite size={size} color={SiViteHex} />
+    ],
+    links: [
+      {
+        text: 'GitHub',
+        url: 'https://github.com/saksham-joshi/FreeQR',
+        icon: ImageGithub
+      },
+      {
+        text: 'View',
+        url: 'https://freeqr.sakshamjoshi.com',
         icon: ImageEye
       }
     ]
