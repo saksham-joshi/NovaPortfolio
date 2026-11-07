@@ -2,6 +2,7 @@ import ImageSron from '../assets/images/project/sron.png'
 import ImageNovaPortfolio from '../assets/images/project/nova-portfolio.png'
 import ImageSentivox from '../assets/images/project/sentivox.png'
 import ImageFreeQR from '../assets/images/project/free-qr.png'
+import ImageSJAzureTheme from '../assets/images/project/sj-azure-theme.png'
 
 import ImageGithub from '../assets/svgs/github.svg'
 import ImageEye from '../assets/svgs/eye.svg'
@@ -45,6 +46,8 @@ import {
 import ElysiajsImg from '../svgs/Elysiajs'
 import RedisImg from '../svgs/RedisImg'
 import { CURRENT_THEME } from './theme'
+import VscodeImg from '../svgs/VscodeImg'
+import MicrosoftImg from '../svgs/Microsoft'
 
 export const DATA_PROJECTS_HEADER = {
   title: 'Projects',
@@ -130,6 +133,25 @@ export const DATA_PROJECTS = [
         text: 'View',
         url: 'https://freeqr.sakshamjoshi.com',
         icon: ImageEye
+      }
+    ]
+  },
+  {
+    title: 'SJ Azure Theme',
+    icon: ImageSJAzureTheme,
+    description:
+      'A lightweight, optimized VS Code color theme extension featuring a collection of beautiful, eye-friendly, and psychologically relaxing themes. Includes three distinct color themes: Azure, Dark Purple, and Cyberpunk. Published on the Visual Studio Marketplace with 100+ downloads and a 5-star rating.',
+    techStack: [(size: number) => VscodeImg(size), (size: number) => MicrosoftImg(size)],
+    links: [
+      {
+        text: 'GitHub',
+        url: 'https://github.com/saksham-joshi/SJ-Theme-VsCode',
+        icon: ImageGithub
+      },
+      {
+        text: 'Download',
+        url: 'https://marketplace.visualstudio.com/items?itemName=SAKSHAMJOSHI.sj-azure-theme',
+        icon: ImageDownload
       }
     ]
   },
